@@ -1,0 +1,99 @@
+/*@import url ("https://fonts.googleapis.com/css?family=Montserrat");*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i&display=swap');
+
+body {
+  padding-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  /*"Museo Sans 100", "Museo Sans 300", "Museo Sans 500", "Museo Sans 700", "Museo Sans 900", "Museo Sans Cyrl 900", "Museo Slab 500";*/
+	font-weight: 400;
+  margin: auto 0px;
+  position: relative;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  text-align: left;
+	font-size-adjust: auto;
+}
+p{font-weight: 300;}
+a {
+    color: #333;
+    text-decoration: none !important;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.centrado {
+  align-content: center;
+  float: center;
+}
+
+/*---------------------------------------------------------------------------------------SUBMENU*/
+ul {
+  list-style: none;
+  padding: 0px
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  background-color: black;
+  z-index: 3;
+}
+
+.nav li:hover>ul {
+  display: block;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 15px 10px;
+}
+
+/*---------------------------------------------------------------------------------------COLORES*/
+.rojo {
+  background:red;
+}
+.rojo-oscuro{
+  background: #C12B2A;
+}
+.gris{
+	background: #E2E2E2
+}
+.grisoscuro {
+  background: #333333;
+}
+
+.border-bottom-red {
+  border-bottom: 4px solid red;
+}
+
+.fondo {
+  background-color: #333333;
+}
+
+
+/*ENCABEZADOS*/
+h1 {
+  font-size: 36px;
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  float: left;
+  padding: 0;
+  margin: 5px 10px
+}
+
+h6 {
+  text-align: center;
+  font-size: 30px;
+  font-style: Bold
+}
