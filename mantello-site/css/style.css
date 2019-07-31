@@ -72,6 +72,10 @@ ul {
   border-bottom: 4px solid red;
 }
 
+.border-top-red {
+  border-top: 4px solid red;
+}
+
 .fondo {
   background-color: #333333;
 }

@@ -6,11 +6,11 @@
 </head>
 
 <body>
-  <!--______________________________HEADER-->
+<!--______________________________HEADER-->
 <?php
 require_once("header.php");
 ?>
-  <!--_______________________-->
+<!--______________________________ FIN HEADER-->
 
   <div class="container-fluid">
   	<div class="row">
@@ -449,6 +449,12 @@ require_once("header.php");
       </div>
     </div>
   </div>
+
+  <!--______________________________HEADER-->
+  <?php
+  require_once("footer.php");
+  ?>
+  <!--______________________________ FIN HEADER-->
 
 </body>
 
