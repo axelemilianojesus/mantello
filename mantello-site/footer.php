@@ -1,4 +1,4 @@
-  <div class="container-fluid bg-dark">
+  <div class="container-fluid bg-dark footer">
   	<div class="row  border-top-red">
   		<div class="col-md-4">
   			<h3 class="text-primary">

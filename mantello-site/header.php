@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Para vaciar cache -->
+  <meta http-equiv="Cache-Control" content="no-store" />
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,6 +24,16 @@
 </head>
 
 <body>
+  <div class="bg-black w-100">
+    <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup">
+      <li><a href="#">¿Como comprar?</a></li>
+      <li><a href="#">Sucursales</a></li>
+      <li><a href="#">Medios de envío</a></li>
+      <li><a href="contactos.html">Contáctanos</a></li>
+      <li><a href="#">Política de privacidad</a></li>
+    </ul>
+
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red">
     <a class="navbar-brand" href="#">
       <img src="img/mantello-ISOLOGO-W.png" alt="isologo" width="180px">
@@ -30,30 +43,47 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="nav navbar-nav">
+        <li><a href="#contact">NEUMÁTICOS</a>
+          <ul>
+            <li class="subm2"><a class="submenu-mantello" href="1autos.html">Autos</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="1camionetas.html">Camionetas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="1camiones.html">Camiones</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="1industriales.html">Industriales</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="1agricolas.html">Agrícolas</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+        <li><a href="#contact">ACCESORIOS 4X4</a>
+          <ul>
+            <li class="subm2"><a class="submenu-mantello" href="2barraantivuelco.html">Barras Antivuelco</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2cobertorcaja.html">Cobertores</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2cupulas.html">Cúpulas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2defensa.html">Defensas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2gancheras.html">Enganches</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2estribos.html">Estribos</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="2lona.html">Lonas</a></li>
+          </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+        <li><a href="#contact">LUBRICANTES</a>
+          <ul>
+            <li class="subm2"><a class="submenu-mantello" href="3mineral.html">Aceite mineral</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="3semisintetico.html">Aceite semi sintético</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="3sintetico.html">Aceite sintético</a></li>
+          </ul>
         </li>
-
+        <li><a href="#contact">BATERIAS</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="novedades.html">NOVEDADES</a></li>
+        <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
+      <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-twitter"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-instagram"></i></a></div>
+        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-skype"></i></a></div>
     </div>
   </nav>
 

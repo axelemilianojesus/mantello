@@ -31,7 +31,7 @@ a:link {
 
 /* visited link */
 a:visited {
-	color: red;
+	color: lightgrey;
 }
 
 /* mouse over link */
@@ -62,7 +62,7 @@ a:active {
 	background-color: #333 !important;
 }
 .btn-outline-success {
-    color: red;
+    color: white;
     border-color: red;
 }
 .btn-outline-success:hover {
@@ -71,4 +71,13 @@ a:active {
     border-color: red;
 }
 
-.botonder{ background: red;}
+.btn-gray{     background-color: rgb(102, 102, 102);
+ color: white;}
+.btn-red{ background: red; color: white;}
+.btn-gray:hover, .btn-red:hover{background: black; color: white;}
+
+/*-------------------------------------------------MENU*/
+
+.navbar-nav .nav-link {
+    color: white !important;
+}

@@ -30,19 +30,72 @@ a {
   align-content: center;
   float: center;
 }
+.margin-0 { margin: 0px !important}
+.padding-0 { padding: 0px !important}
+.height-equal{height: calc(1.5em + .75rem + 2px);}
 
-/*---------------------------------------------------------------------------------------SUBMENU*/
+/*-------------------------------------------------FORMS*/
+
+.navbar .form-control {
+    /*height: calc(1 + 1rem);*/
+    font-weight: 300;
+    line-height: 1.2;
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 0;
+    font-size: small;
+
+}
+select {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+.navbar-toggler {
+    color: black;
+    border-color: red;
+    background: red;
+}
+.bg-black{ background: black}
+/*-------------------------------------------------SUBMENU*/
+.nav-bar-sup{
+      flex-direction: row;
+      font-size: 10px;
+      color: white;
+
+}
+.navbar-nav {
+    font-size: small;
+    color: white;
+}
 ul {
   list-style: none;
   padding: 0px
 }
 
 .nav li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px;
-  background-color: black;
-  z-index: 3;
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: black;
+    z-index: 3;
+    line-height: 2;
+    padding: 20px;
+    font-weight: 100;
 }
 
 .nav li:hover>ul {
@@ -54,7 +107,70 @@ ul {
   padding: 15px 10px;
 }
 
-/*---------------------------------------------------------------------------------------COLORES*/
+.divisor {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    height: 60px;
+    margin: auto;
+}
+
+/*------------------------------------------------PRODUCTOS*/
+.ruedas {
+    max-width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 0px;
+}
+
+}
+.bloque{
+  background: rgba(0,0,0,0.1);
+border: 1px solid lightgray;
+text-align: center;
+margin: auto;
+padding: 30px 20px 10px;
+}
+.panel-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 15px;
+    border-bottom: 1px solid transparent;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.panel {
+    background-color: rgb(224, 224, 224);
+    font-size: small;
+}
+
+/*------------------------------------------------NOVEDADES*/
+.nov-tittle {
+    background-color: red;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin-bottom: 0px
+}
+.nov-img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.nov-img img{width: 100%}
+.content-nov {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+.estilorojo {
+    font-weight: bold;
+    color: red;
+}
+
+/*------------------------------------------------COLORES*/
 .rojo {
   background:red;
 }
@@ -100,4 +216,10 @@ h6 {
   text-align: center;
   font-size: 30px;
   font-style: Bold
+}
+
+/*------------------------------------------------FOOTER*/
+.footer{
+  color: white;
+  background: black;
 }
