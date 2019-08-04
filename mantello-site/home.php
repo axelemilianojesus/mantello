@@ -397,13 +397,13 @@ require_once("header.php");
   </div>
 
   <div class="divisor">
-    <p class="textoblanco1"><span class="estilorojo">SUCURSALES</span></p>
+    <p class=""><span class="estilorojo">SUCURSALES</span></p>
   </div>
 
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
+      <div class="w-100">
 
         <div class="carousel slide d-block d-sm-none" data-ride="carousel" data-interval="0">
           <div class="row">
@@ -556,8 +556,8 @@ require_once("header.php");
         <div class="col-xl-12 col-md-12 col-12 col-center mx-auto text-center pt-3 pb-1 mt-2">
           <div class="col-md-6 col-sm-12 col-xs-12 newslettamano center-block mx-auto">
             <div class="newsltexto hidden-xsd-none d-sm-block">
-              <p class="">SUSCRIBITE A <span class="newslettertexto1">NUESTRO NEWSLETTER</span></p>
-              <p class="newslettertexto1">y recibi nuestras mejores ofertas</p>
+              <p class=""><span class="font-weight-bold">SUSCRIBITE A NUESTRO NEWSLETTER</span><br>
+              y recibi nuestras mejores ofertas</p>
             </div>
             <div class="newsltexto d-block d-sm-none">
               <p class="newslettertexto1">NEWSLETTER</p>
