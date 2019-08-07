@@ -14,12 +14,15 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--FONTAWESOME -->
+  <link href="css/all.min.css" rel="stylesheet">
+
 
   <!-- Personal CSS
     <link href="css/style.css" rel="stylesheet" type="text/css">-->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="css/botones.css" rel="stylesheet" type="text/css">
-  <link href="css/popup.css" rel="stylesheet" type="text/css">
+  <!--<link href="css/popup.css" rel="stylesheet" type="text/css">-->
 
 </head>
 
@@ -32,6 +35,15 @@
       <li><a href="#.html">Contáctanos</a></li>
       <li><a href="#">Política de privacidad</a></li>
     </ul>
+    <div class="text-white mb-0">
+      <ul class="mb-0 d-block">
+        <li><i class="fas fa-user"></i> <!-- uses solid style --></li>
+        <li><i class="far fa-user"></i> <!-- uses regular style --></li>
+        <li><i class="fal fa-user"></i> <!-- uses light style --></li>
+        <li><!--brand icon-->
+        <i class="fab fa-github-square"></i> <!-- uses brands style --></li>
+      </ul>
+    </div>
 
   </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red">
