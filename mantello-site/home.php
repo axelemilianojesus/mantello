@@ -395,47 +395,18 @@ require_once("header.php");
 
     </div>
   </div>
-
+<!-- SUCURSALES -->
   <div class="divisor">
     <p class=""><span class="estilorojo">SUCURSALES</span></p>
   </div>
 
-
-  <div class="container-fluid">
+<!-- MAPA -->
+ <div class="container-fluid">
     <div class="row">
       <div class="w-100">
 
-        <div class="carousel slide d-block d-sm-none" data-ride="carousel" data-interval="0">
-          <div class="row">
-            <div class="col-md-4 col-sm-4">
-              <div class="">
 
-                <ul class="nav navbar-nav navbar-left menumapa">
-                  <li><a href="https://goo.gl/maps/FasRN7RSgT2K778J7">
-                      <p class="sucursales">Maipu</p>
-                      <p>Gobernador Francisco José Gabrielli 3885
-                        0261 493-2884</p>
-                    </a></li>
-                  <li><a href="https://goo.gl/maps/BMTxGkghwGp7GCos6">
-                      <p class="sucursales">Guaymallén</p>
-                      <p>Av. Mitre 25
-                        0261 431-3356</p>
-                    </a></li>
-                  <li><a href="https://goo.gl/maps/juwDDduwRB2pKkup6">
-                      <p class="sucursales">Godoy Cruz</p>
-                      <p>Av. San Martín 22
-                        0261 435-0555</p>
-                    </a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         <!-- Start Carousel -->
-
-
-
-
         <div id="custom_carousel" class="carousel slide hidden-xsd-none d-sm-block" data-ride="carousel" data-interval="0">
           <div class="row">
             <div class="col-md-4 col-sm-4 bg-dark">
@@ -443,17 +414,17 @@ require_once("header.php");
 
                 <ul class="nav navbar-nav navbar-left menumapa">
                   <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#">
-                      <p class="sucursales">Maipu</p>
+                      <h4 class="bold uppercase">Maipu</h4>
                       <p>Gobernador Francisco José Gabrielli 3885
                         0261 493-2884</p>
                     </a></li>
                   <li data-target="#custom_carousel" data-slide-to="1" class="active"><a href="#">
-                      <p class="sucursales">Guaymallén</p>
+                      <h4 class="bold uppercase">Guaymallén</h4>
                       <p>Av. Mitre 25
                         0261 431-3356</p>
                     </a></li>
                   <li data-target="#custom_carousel" data-slide-to="2" class="active"><a href="#">
-                      <p class="sucursales">Godoy Cruz</p>
+                      <h4 class="bold uppercase">Godoy Cruz</h4>
                       <p>Av. San Martín 22
                         0261 435-0555</p>
                     </a></li>

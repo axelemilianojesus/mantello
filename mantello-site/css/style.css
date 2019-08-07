@@ -46,10 +46,7 @@ a {
   align-content: center;
   float: center;
 }
-.font-small{
-  font-size: small;
-  font-weight: 300;
-}
+
 .margin-0 {
   margin: 0px !important
 }
@@ -62,7 +59,12 @@ a {
   height: calc(1.5em + .75rem + 2px);
 }
 .max-width{ max-width: 1440px;}
-
+.bold{font-weight: bold;}
+.uppercase{ text-transform: uppercase;}
+.font-small{
+  font-size: small;
+  font-weight: 100;
+}
 /*-------------------------------------------------FORMS*/
 .navbar .form-control {
   /*height: calc(1 + 1rem);*/
@@ -97,9 +99,7 @@ select {
   background: red;
 }
 
-.bg-black {
-  background: black
-}
+
 
 /*-------------------------------------------------SUBMENU*/
 .nav-bar-sup {
@@ -247,30 +247,32 @@ ul {
 .fondo {
   background-color: #333333;
 }
+.bg-black {
+  background: black;
+}
 
-/*ENCABEZADOS*/
+/*------------------------------------------------ENCABEZADOS*/
 h1 {
-  font-size: 36px;
+  font-size: larger;
   color: white;
-  margin: 10px;
   text-align: center;
 }
 
 h3 {
   color: red;
-  float: left;
   padding: 0;
-  margin: 5px 10px
 }
 
 h6 {
   text-align: center;
   font-size: 30px;
-  font-style: Bold
+  font-style: Bold;
 }
-
+/*------------------------------------------------MAPA*/
+.sucursales
 /*------------------------------------------------FOOTER*/
 .footer {
   color: white;
-  background: black;
+  background: black !important;
+  font-size:12px;
 }

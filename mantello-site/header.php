@@ -35,6 +35,7 @@
 
   </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red">
+    <div class="row max-width m-auto">
     <a class="navbar-brand" href="#">
       <img src="img/mantello-ISOLOGO-W.png" alt="isologo" width="180px">
     </a>
@@ -93,6 +94,7 @@
       <li><a href="#.html">Contáctanos</a></li>
       <li><a href="#">Política de privacidad</a></li>
     </ul>
+  </div>
   </nav>
 
   <!-- Optional JavaScript -->
