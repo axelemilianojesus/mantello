@@ -65,6 +65,25 @@ a {
   font-size: small;
   font-weight: 100;
 }
+.font-xl{font-size: x-large;
+    margin-top: -5px;}
+.align-contents-center {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+}
+.divider {
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  height: 60px;
+  margin: auto;
+}
 /*-------------------------------------------------FORMS*/
 .navbar .form-control {
   /*height: calc(1 + 1rem);*/
@@ -93,15 +112,15 @@ select {
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+
+
+
+/*-------------------------------------------------MENU*/
 .navbar-toggler {
   color: black;
   border-color: red;
   background: red;
 }
-
-
-
-/*-------------------------------------------------SUBMENU*/
 .nav-bar-sup {
   flex-direction: row;
   font-size: 10px;
@@ -128,26 +147,18 @@ ul {
   padding: 20px;
   font-weight: 100;
 }
-
-.nav li:hover>ul {
-  display: block;
-}
-
 .nav>li>a {
   position: relative;
   display: block;
   padding: 15px 10px;
 }
-
-.divisor {
-  background: #333;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  font-size: larger;
-  height: 60px;
-  margin: auto;
+.display-contents{
+  display: contents;
 }
+.nav li:hover>ul {
+  display: block;
+}
+
 
 .submenu-mantello{}
 /* (1024x768) iPad 1 & 2, XGA */

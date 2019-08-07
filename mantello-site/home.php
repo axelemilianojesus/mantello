@@ -197,7 +197,7 @@ require_once("header.php");
     </div>
     <!--______________________________ FIN SLIDER-->
 
-  <div class="divisor">
+  <div class="divider">
     <p class="textoblanco1">PRODUCTOS<span class="estilorojo"> DESTACADOS</span></p>
   </div>
 
@@ -396,7 +396,7 @@ require_once("header.php");
     </div>
   </div>
 <!-- SUCURSALES -->
-  <div class="divisor">
+  <div class="divider">
     <p class=""><span class="estilorojo">SUCURSALES</span></p>
   </div>
 
@@ -432,7 +432,7 @@ require_once("header.php");
               </div>
             </div>
 
-            <div id="carouselExampleControls" class="carousel slide col-md-8 m-0 p-0" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide col-sm-8 m-0 p-0 bg-dark" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="graph-content"> <iframe
@@ -473,7 +473,7 @@ require_once("header.php");
   </div>
 
 
-  <div class="divisor">
+  <div class="divider">
     <p class="textoblanco1">NOVEDADES</p>
   </div>
 

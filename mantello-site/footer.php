@@ -2,7 +2,7 @@
   	<div class="row border-top-red py-md-5 py-sm-2 footer">
       <div class=" row max-width mx-3 col-12 m-auto">
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
   			<p><img alt="Mantello logo" src="img/mantello-logo-degrade.png" width="100px"/></p>
 
         <h3 class="d-block">CONTACTO</h3>
@@ -15,7 +15,7 @@
 
 
   		</div>
-  		<div class="col-md-4">
+  		<div class="col-md-4 col-sm-6">
 
         <h3 class="d-block">SUCURSALES</h3>
         <ul class="text-white font-small">
@@ -30,7 +30,7 @@
   			</p>
   		</div>
 
-  		<div class="col-md-4">
+  		<div class="col-md-4 d-none d-sm-block">
         <h3 class="d-block">SERVICIOS</h3>
         <ul class="text-white font-small">
           <li class="mb-2 font-italic">Tren Delantero</li>

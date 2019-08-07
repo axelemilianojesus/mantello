@@ -28,23 +28,31 @@
 
 <body>
   <div class="bg-black w-100 d-none d-md-block">
+    <div class="max-width mx-auto d-table">
     <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup font-small" >
       <li><a href="#">¿Como comprar?</a></li>
       <li><a href="#">Sucursales</a></li>
       <li><a href="#">Medios de envío</a></li>
-      <li><a href="#.html">Contáctanos</a></li>
+      <li><a href="#">Contáctanos</a></li>
       <li><a href="#">Política de privacidad</a></li>
     </ul>
-
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red">
-    <div class="row max-width">
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red align-content-center">
+    <div class="max-width display-contents align-content-around mx-auto">
+
+    <div class="logo float-left">
     <a class="navbar-brand" href="#">
       <img src="img/mantello-ISOLOGO-W.png" alt="isologo" width="180px">
     </a>
+    </div>
+
+    <div class="hamburguer float-right">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    </div>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="nav navbar-nav">
@@ -78,25 +86,28 @@
         <li><a href="#contact">BATERIAS</a></li>
         <li><a href="servicios.html">SERVICIOS</a></li>
         <li><a href="novedades.html">NOVEDADES</a></li>
+        <li><a href="#"><i class="fas fa-shopping-cart font-xl"></i></a></li>
         <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
       <!--BUSCADOR-->
       </ul>
-      <ul class="w-100 d-none d-block d-md-none bg-black p-4" >
+      <ul class="w-100 d-none d-block d-md-none bg-black p-4 font-small" >
         <li class="mb-1"><a href="#">¿Como comprar?</a></li>
         <li class="mb-1"><a href="#">Sucursales</a></li>
         <li class="mb-1"><a href="#">Medios de envío</a></li>
-        <li class="mb-1"><a href="#.html">Contáctanos</a></li>
+        <li class="mb-1"><a href="#">Contáctanos</a></li>
         <li class="mb-1"><a href="#">Política de privacidad</a></li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
+      <form class="form-inline d-none d-block d-md-none my-2 my-lg-0">
+        <input class="form-control mr-sm-2 w-100" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 w-100" type="submit">BUSCAR</button>
       </form>
       <!--ICONOS-->
-      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-instagram"></i></a></div>
-      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-youtube"></i></a></div>
-      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fas fa-envelope"></i></i></a></div>
+      <div class="iconos d-flex">
+      <div class="p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-instagram"></i></a></div>
+      <div class="p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+      <div class="p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-youtube"></i></a></div>
+      <div class="p-2 bd-highlight d-inline"><a href="#"><i class="fas fa-envelope"></i></i></a></div>
+      </div>
     </div>
   </div>
   </nav>
