@@ -5,19 +5,34 @@ body {
   padding-top: 0px;
   font-family: 'Montserrat', sans-serif;
   /*"Museo Sans 100", "Museo Sans 300", "Museo Sans 500", "Museo Sans 700", "Museo Sans 900", "Museo Sans Cyrl 900", "Museo Slab 500";*/
-	font-weight: 400;
+  font-weight: 400;
   margin: auto 0px;
   position: relative;
   box-sizing: border-box;
   letter-spacing: 2px;
   line-height: 1.2;
   text-align: left;
-	font-size-adjust: auto;
+  font-size-adjust: auto;
 }
-p{font-weight: 300;}
+
+p {
+  font-weight: 300;
+}
+
 a {
-    color: #333;
-    text-decoration: none !important;
+  color: #333;
+  text-decoration: none !important;
+}
+.row {
+  margin-right:0px;
+  margin-left: 0px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .container-fluid {
@@ -26,27 +41,40 @@ a {
   margin-right: 0;
   margin-left: 0;
 }
-.centrado {
+
+.center-center {
   align-content: center;
   float: center;
 }
-.margin-0 { margin: 0px !important}
-.padding-0 { padding: 0px !important}
-.height-equal{height: calc(1.5em + .75rem + 2px);}
+.font-small{
+  font-size: small;
+  font-weight: 300;
+}
+.margin-0 {
+  margin: 0px !important
+}
+
+.padding-0 {
+  padding: 0px !important
+}
+
+.height-equal {
+  height: calc(1.5em + .75rem + 2px);
+}
+.max-width{ max-width: 1440px;}
 
 /*-------------------------------------------------FORMS*/
-
 .navbar .form-control {
-    /*height: calc(1 + 1rem);*/
-    font-weight: 300;
-    line-height: 1.2;
-    color: #333;
-    background-color: rgba(255,255,255,0.8);
-    border: none;
-    border-radius: 0;
-    font-size: small;
-
+  /*height: calc(1 + 1rem);*/
+  font-weight: 300;
+  line-height: 1.2;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 0;
+  font-size: small;
 }
+
 select {
   display: block;
   width: 100%;
@@ -60,47 +88,51 @@ select {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
-
 
 .navbar-toggler {
-    color: black;
-    border-color: red;
-    background: red;
+  color: black;
+  border-color: red;
+  background: red;
 }
-.bg-black{ background: black}
-/*-------------------------------------------------SUBMENU*/
-.nav-bar-sup{
-      flex-direction: row;
-      font-size: 10px;
-      color: white;
 
+.bg-black {
+  background: black
 }
+
+/*-------------------------------------------------SUBMENU*/
+.nav-bar-sup {
+  flex-direction: row;
+  font-size: 10px;
+  color: white;
+}
+
 .navbar-nav {
-    font-size: small;
-    color: white;
+  font-size: small;
+  color: white;
 }
+
 ul {
   list-style: none;
   padding: 0px
 }
 
 .nav li ul {
-    display: none;
-    position: absolute;
-    min-width: 140px;
-    background-color: black;
-    z-index: 3;
-    line-height: 2;
-    padding: 20px;
-    font-weight: 100;
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  background-color: black;
+  z-index: 3;
+  line-height: 2;
+  padding: 20px;
+  font-weight: 100;
 }
 
 .nav li:hover>ul {
   display: block;
 }
+
 .nav>li>a {
   position: relative;
   display: block;
@@ -108,78 +140,98 @@ ul {
 }
 
 .divisor {
-    background: #333;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: larger;
-    height: 60px;
-    margin: auto;
+  background: #333;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  height: 60px;
+  margin: auto;
 }
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (max-width: 1024px) {
+  .nav li ul {
+      display: none;
+      position: relative !important;
+    }
+
+
+}
+
 
 /*------------------------------------------------PRODUCTOS*/
 .ruedas {
-    max-width: 100%;
-    text-align: center;
-    align-content: center;
-    margin: 0px;
+  max-width: 100%;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+}
 }
 
+.bloque {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid lightgray;
+  text-align: center;
+  margin: auto;
+  padding: 30px 20px 10px;
 }
-.bloque{
-  background: rgba(0,0,0,0.1);
-border: 1px solid lightgray;
-text-align: center;
-margin: auto;
-padding: 30px 20px 10px;
-}
+
 .panel-heading {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    padding: 15px;
-    border-bottom: 1px solid transparent;
-    border: 1px solid rgba(0,0,0,0.1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .panel {
-    background-color: rgb(224, 224, 224);
-    font-size: small;
+  background-color: rgb(224, 224, 224);
+  font-size: small;
 }
 
 /*------------------------------------------------NOVEDADES*/
 .nov-tittle {
-    background-color: red;
-    color: white;
-    text-align: center;
-    align-content: center;
-    padding: 10px;
-    margin-bottom: 0px
+  background-color: red;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+  margin-bottom: 0px
 }
-.nov-img{
+
+.nov-img {
   width: 100%;
   margin-bottom: 20px;
 }
-.nov-img img{width: 100%}
-.content-nov {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
 
+.nov-img img {
+  width: 100%
 }
+
+.content-nov {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
 .estilorojo {
-    font-weight: bold;
-    color: red;
+  font-weight: bold;
+  color: red;
 }
 
 /*------------------------------------------------COLORES*/
 .rojo {
-  background:red;
+  background: red;
 }
-.rojo-oscuro{
+
+.rojo-oscuro {
   background: #C12B2A;
 }
-.gris{
-	background: #E2E2E2
+
+.gris {
+  background: #E2E2E2
 }
+
 .grisoscuro {
   background: #333333;
 }
@@ -195,7 +247,6 @@ padding: 30px 20px 10px;
 .fondo {
   background-color: #333333;
 }
-
 
 /*ENCABEZADOS*/
 h1 {
@@ -219,7 +270,7 @@ h6 {
 }
 
 /*------------------------------------------------FOOTER*/
-.footer{
+.footer {
   color: white;
   background: black;
 }

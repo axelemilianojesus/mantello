@@ -1,35 +1,22 @@
-  <div class="container-fluid bg-dark footer">
-  	<div class="row  border-top-red">
-  		<div class="col-md-4">
-  			<h3 class="text-primary">
-  				h3. Lorem ipsum dolor sit amet.
-  			</h3><img alt="Mantello logo" src="img/mantello-logo-degrade.png" width="100px" />
+<div class="container-fluid bg-dark footer">
+  	<div class="row border-top-red py-md-5 py-sm-2">
+      <div class=" row max-width mx-3">
+
+      <div class="col-md-4">
+  			<p><img alt="Mantello logo" src="img/mantello-logo-degrade.png" width="100px"/></p>
+
+
   		</div>
   		<div class="col-md-4">
-  			<h3>
-  				h3. Lorem ipsum dolor sit amet.
-  			</h3>
-  			<div class="btn-group" role="group">
 
-  				<button class="btn btn-secondary" type="button">
-  					Left
-  				</button>
-  				<button class="btn btn-secondary" type="button">
-  					Center
-  				</button>
-  				<button class="btn btn-secondary" type="button">
-  					Right
-  				</button>
-  				<button class="btn btn-secondary" type="button">
-  					Justify
-  				</button>
-  			</div>
-  			<h2>
-  				Heading
-  			</h2>
-  			<p>
-  				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-  			</p>
+        <h3>SUCURSALES</h3>
+        <ul>
+          <li>⚫Francisco Gabrielli 3885, Maipú</li>
+          <li>🔴Mitre 25 y lat norte Acc Este</li>
+          <li>⚫S.Martín y Rivadavia, GCruz</li>
+          <li>🔴Maza 347, Maipu</li>
+          <li>⚫Azcuénaga 496, Luján</li>
+        </ul>
   			<p>
   				<a class="btn" href="#">View details »</a>
   			</p>
@@ -57,12 +44,12 @@
   				Button
   			</button>
   		</div>
-  	</div>
-  	<div class="row">
-  		<div class="col-md-12">
-  			<p>
-  				Donec id elit non mi porta gravida at eget metus.
-  			</p>
-  		</div>
-  	</div>
+       </div>
+      </div>
+  </div>
+
+  <div class="row w-100 bg-black text-center pt-2">
+    <div class="col-md-12 font-small">
+      <p>Copyright @2019 | Estudio Furia</p>
+    </div>
   </div>

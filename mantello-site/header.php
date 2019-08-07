@@ -24,12 +24,12 @@
 </head>
 
 <body>
-  <div class="bg-black w-100">
-    <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup">
+  <div class="bg-black w-100 d-none d-md-block">
+    <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup font-small" >
       <li><a href="#">¿Como comprar?</a></li>
       <li><a href="#">Sucursales</a></li>
       <li><a href="#">Medios de envío</a></li>
-      <li><a href="contactos.html">Contáctanos</a></li>
+      <li><a href="#.html">Contáctanos</a></li>
       <li><a href="#">Política de privacidad</a></li>
     </ul>
 
@@ -77,14 +77,22 @@
         <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
       </form>
       <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
         <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-twitter"></i></a></div>
         <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-instagram"></i></a></div>
         <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-skype"></i></a></div>
     </div>
+
+    <ul class="d-none d-block d-md-none" >
+      <li><a href="#">¿Como comprar?</a></li>
+      <li><a href="#">Sucursales</a></li>
+      <li><a href="#">Medios de envío</a></li>
+      <li><a href="#.html">Contáctanos</a></li>
+      <li><a href="#">Política de privacidad</a></li>
+    </ul>
   </nav>
 
   <!-- Optional JavaScript -->
