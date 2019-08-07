@@ -148,6 +148,8 @@ ul {
   height: 60px;
   margin: auto;
 }
+
+.submenu-mantello{}
 /* (1024x768) iPad 1 & 2, XGA */
 @media only screen and (max-width: 1024px) {
   .nav li ul {

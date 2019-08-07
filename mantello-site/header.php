@@ -35,19 +35,10 @@
       <li><a href="#.html">Contáctanos</a></li>
       <li><a href="#">Política de privacidad</a></li>
     </ul>
-    <div class="text-white mb-0">
-      <ul class="mb-0 d-block">
-        <li><i class="fas fa-user"></i> <!-- uses solid style --></li>
-        <li><i class="far fa-user"></i> <!-- uses regular style --></li>
-        <li><i class="fal fa-user"></i> <!-- uses light style --></li>
-        <li><!--brand icon-->
-        <i class="fab fa-github-square"></i> <!-- uses brands style --></li>
-      </ul>
-    </div>
 
   </div>
   <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red">
-    <div class="row max-width m-auto">
+    <div class="row max-width">
     <a class="navbar-brand" href="#">
       <img src="img/mantello-ISOLOGO-W.png" alt="isologo" width="180px">
     </a>
@@ -88,24 +79,25 @@
         <li><a href="servicios.html">SERVICIOS</a></li>
         <li><a href="novedades.html">NOVEDADES</a></li>
         <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
+      <!--BUSCADOR-->
+      </ul>
+      <ul class="w-100 d-none d-block d-md-none bg-black p-4" >
+        <li class="mb-1"><a href="#">¿Como comprar?</a></li>
+        <li class="mb-1"><a href="#">Sucursales</a></li>
+        <li class="mb-1"><a href="#">Medios de envío</a></li>
+        <li class="mb-1"><a href="#.html">Contáctanos</a></li>
+        <li class="mb-1"><a href="#">Política de privacidad</a></li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
       </form>
-      <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
-        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-twitter"></i></a></div>
-        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-instagram"></i></a></div>
-        <div class="ml-auto p-2 bd-highlight"><a href="#"><i class="fab fa-skype"></i></a></div>
+      <!--ICONOS-->
+      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-instagram"></i></a></div>
+      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fab fa-youtube"></i></a></div>
+      <div class="ml-auto p-2 bd-highlight d-inline"><a href="#"><i class="fas fa-envelope"></i></i></a></div>
     </div>
-
-    <ul class="d-none d-block d-md-none" >
-      <li><a href="#">¿Como comprar?</a></li>
-      <li><a href="#">Sucursales</a></li>
-      <li><a href="#">Medios de envío</a></li>
-      <li><a href="#.html">Contáctanos</a></li>
-      <li><a href="#">Política de privacidad</a></li>
-    </ul>
   </div>
   </nav>
 
