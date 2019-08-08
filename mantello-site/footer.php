@@ -1,6 +1,6 @@
 <div class="container-fluid bg-dark">
   	<div class="row border-top-red py-md-5 py-sm-2 footer">
-      <div class=" row max-width mx-3 col-12 m-auto">
+      <div class=" row max-width mx-3 col-12 m-auto px-5">
 
       <div class="col-md-4 col-sm-6">
   			<p><img alt="Mantello logo" src="img/mantello-logo-degrade.png" width="100px"/></p>

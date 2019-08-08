@@ -40,7 +40,7 @@
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-dark border-bottom-red align-content-center">
-    <div class="max-width display-contents align-content-around mx-auto">
+    <div class="max-width display-menu mx-auto font-small">
 
     <div class="logo float-left">
     <a class="navbar-brand" href="#">
