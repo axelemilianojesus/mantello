@@ -19,12 +19,12 @@ include_once("main-banner.php");
   <!--______________________________ FIN SLIDER-->
 
 
-  <!--______________________________ BUSCADOR-->
+  <!--______________________________ BUSCADOR SOLO XS
   <div class="visible-sm d-block d-sm-none">
     <div class="text-center">
       <p class="bscpalabr">BUSCADOR</p>
     </div>
-  </div>
+  </div>-->
 
 
 
@@ -39,7 +39,7 @@ include_once("main-banner.php");
             <div id="logo" class="text-center">
               <div class="row">
                 <div class="w-100">
-                  <p>BUSCÁ TU <span class="bold">CUBIERTA</span> <span class="red">ACÁ</span></p>
+                  <p>BUSCÁ TU <span class="bold">CUBIERTA</span> <span class="text-red">ACÁ</span></p>
                 </div>
                 <div class="col-lg-3 col-md-12 col-12">
                   <div class="form-group">
@@ -73,7 +73,7 @@ include_once("main-banner.php");
 
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-12">
+                <div class="col-lg-3 col-md-12 col-12">
                   <div class="form-group ">
                     <select name="medida">
                       <option selected>16</option>
@@ -89,18 +89,18 @@ include_once("main-banner.php");
                   </div>
                 </div>
 
-                <div class="col-md-2 col-sm-12 col-xs-12">
+                <div class="col-md-3 col-sm-12 col-xs-12">
                   <span class="input-group-btn">
-                    <button class="btn btn-success height-equal" type="submit">
-                      <i class="glyphicon glyphicon-search" aria-hidden="true"></i> <a href="neumaticos.html">Buscar</a>
+                    <button class="btn btn-success height-equal p-1 w-100" type="submit">
+                      <i class="fas fa-search"></i> &nbsp<a href="neumaticos.html">Buscar</a>
                     </button>
                   </span>
                 </div>
 
               </div>
             </div>
-            <div class="mt-3 text-center">
-              <p>BUSCADOR GENERAL</p>
+            <div class="mt-5 text-center">
+              <p>BUSCADOR <span class="text-black">GENERAL</p>
             </div>
             <form role="form" id="form-buscar">
               <div class="form-group">
@@ -127,7 +127,7 @@ include_once("main-banner.php");
     <!--______________________________ FIN SLIDER SERVICIOS-->
 
   <div class="divider">
-    <p class="textoblanco1">PRODUCTOS<span class="estilorojo"> DESTACADOS</span></p>
+    <p class="textoblanco1">PRODUCTOS<span class="text-red"> DESTACADOS</span></p>
   </div>
 
 
@@ -152,7 +152,7 @@ include_once("main-banner.php");
                   <div class="modal-body">
                     <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
                     </div>
-                    <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                    <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                     <p>12 cuotas sin interés de $216.75</p>
                   </div>
                   <div class="modal-footer">
@@ -166,7 +166,7 @@ include_once("main-banner.php");
 
             <div class="card-body panel">
               <h5>NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-              <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+              <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
               <p>12 cuotas sin interés de $216.75</p>
             </div>
 
@@ -199,7 +199,7 @@ include_once("main-banner.php");
                    <div class="modal-body">
                      <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
                      </div>
-                     <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                     <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                      <p>12 cuotas sin interés de $216.75</p>
                    </div>
                    <div class="modal-footer">
@@ -213,7 +213,7 @@ include_once("main-banner.php");
 
              <div class="card-body panel">
                <h5>NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-               <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+               <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                <p>12 cuotas sin interés de $216.75</p>
              </div>
 
@@ -246,7 +246,7 @@ include_once("main-banner.php");
                     <div class="modal-body">
                       <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
                       </div>
-                      <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                      <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                       <p>12 cuotas sin interés de $216.75</p>
                     </div>
                     <div class="modal-footer">
@@ -260,7 +260,7 @@ include_once("main-banner.php");
 
               <div class="card-body panel">
                 <h5>NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-                <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                 <p>12 cuotas sin interés de $216.75</p>
               </div>
 
@@ -293,7 +293,7 @@ include_once("main-banner.php");
                      <div class="modal-body">
                        <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
                        </div>
-                       <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                       <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                        <p>12 cuotas sin interés de $216.75</p>
                      </div>
                      <div class="modal-footer">
@@ -307,7 +307,7 @@ include_once("main-banner.php");
 
                <div class="card-body panel">
                  <h5>NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-                 <p><del>$3169.15 </del> <span class="estilorojo precios1"> $2601.00</span></p>
+                 <p><del>$3169.15 </del> <span class="text-red precios1"> $2601.00</span></p>
                  <p>12 cuotas sin interés de $216.75</p>
                </div>
 
@@ -326,7 +326,7 @@ include_once("main-banner.php");
   </div>
 <!-- SUCURSALES -->
   <div class="divider">
-    <p class=""><span class="estilorojo">SUCURSALES</span></p>
+    <p class=""><span class="text-red">SUCURSALES</span></p>
   </div>
 
 <!-- MAPA -->
@@ -400,88 +400,13 @@ include_once("main-banner.php");
       </div>
     </div>
   </div>
-
-
-  <div class="divider">
-    <p class="textoblanco1">NOVEDADES</p>
-  </div>
-
-  <div class="container" id="novedades">
-    <div class="row">
-    <!-- NOVEDAD-->
-      <div class="col-lg-4 col-sm-12 content-nov bg-light my-2">
-        <p class="nov-tittle">BRIDGESTONE</p>
-        <div class="nov-img">
-          <img src="img/autos/nisan.jpg" class="img-fluid">
-        </div>
-        <p class="estilorojo ">Bridgestone, proveedor de Nissan y Toyota</p>
-        <p class="">Te damos algunos consejos para ahorrar combustible en tus vacaciones.</p>
-        <div class="btn-group w-100">
-          <button type="button" class="btn btn-gray">LEER MAS...</button>
-        </div>
-      </div>
-
-      <!-- NOVEDAD-->
-        <div class="col-lg-4 col-sm-12 content-nov bg-light my-2">
-          <p class="nov-tittle">BRIDGESTONE</p>
-          <div class="nov-img">
-            <img src="img/autos/mercedez.jpg" class="img-fluid">
-          </div>
-          <p class="estilorojo ">Bridgestone, proveedor de Nissan y Toyota</p>
-          <p class="">Te damos algunos consejos para ahorrar combustible en tus vacaciones.</p>
-          <div class="btn-group w-100">
-            <button type="button" class="btn btn-gray">LEER MAS...</button>
-          </div>
-        </div>
-
-        <!-- NOVEDAD-->
-          <div class="col-lg-4 col-sm-12 content-nov bg-light my-2">
-            <p class="nov-tittle">BRIDGESTONE</p>
-            <div class="nov-img">
-              <img src="img/autos/solpuesta.jpg" class="img-fluid">
-            </div>
-            <p class="estilorojo ">Bridgestone, proveedor de Nissan y Toyota</p>
-            <p class="">Te damos algunos consejos para ahorrar combustible en tus vacaciones.</p>
-            <div class="btn-group w-100">
-              <button type="button" class="btn btn-gray">LEER MAS...</button>
-            </div>
-          </div>
-
-  </div>
+  <!--______________________________FOOTER-->
+  <?php
+include_once("novedades-fee.php");
+  ?>
+  <!--______________________________ FIN FOOTER-->
 </div>
 
-  <div class="newsletter">
-    <div class="gris">
-      <div class="container ">
-        <div class="col-xl-12 col-md-12 col-12 col-center mx-auto text-center pt-3 pb-1 mt-2">
-          <div class="col-md-6 col-sm-12 col-xs-12 newslettamano center-block mx-auto">
-            <div class="newsltexto hidden-xsd-none d-sm-block">
-              <p class=""><span class="font-weight-bold">SUSCRIBITE A NUESTRO NEWSLETTER</span><br>
-              y recibi nuestras mejores ofertas</p>
-            </div>
-            <div class="newsltexto d-block d-sm-none">
-              <p class="newslettertexto1">NEWSLETTER</p>
-
-            </div>
-            <div>
-              <form role="form">
-                <div class="form-group">
-                  <div class="input-group">
-                    <input class="form-control" type="text" name="search" placeholder="email" required>
-                    <span class="input-group-btn">
-                      <button class="btn btn-success height-equal" type="submit">
-                        <i class="glyphicon glyphicon-search" aria-hidden="true"></i>Suscribirse
-                      </button>
-                    </span>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!--______________________________FOOTER-->
   <?php

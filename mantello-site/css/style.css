@@ -23,6 +23,7 @@ a {
   color: #333;
   text-decoration: none !important;
 }
+.white-link a{color: white}
 .row {
   margin-right:0px;
   margin-left: 0px;
@@ -232,12 +233,22 @@ ul {
   text-align: center;
 }
 
-.estilorojo {
-  font-weight: bold;
-  color: red;
-}
 
 /*------------------------------------------------COLORES*/
+.text-red {
+  font-weight: 900;
+  color: red;
+}
+.text-black {
+  font-weight: 900;
+  color: black;
+}
+.text-white-bold {
+  font-weight: 900;
+  color: white;
+}
+
+
 .rojo {
   background: red;
 }
@@ -279,6 +290,11 @@ h1 {
 h3 {
   color: red;
   padding: 0;
+}
+h5 {
+  text-align: center;
+  font-size: larger;
+  font-style: Bold;
 }
 
 h6 {

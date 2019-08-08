@@ -86,16 +86,59 @@
         <li><a href="#contact">BATERIAS</a></li>
         <li><a href="servicios.html">SERVICIOS</a></li>
         <li><a href="novedades.html">NOVEDADES</a></li>
-        <li><a href="#"><i class="fas fa-shopping-cart font-xl"></i></a></li>
+        <li><a href="#ModalHeader" data-toggle="modal" data-target="#ModalHeader"><i class="fas fa-shopping-cart font-xl"></i></a></li>
+        <button type="button" class="btn btn-primary my-1">OFERTAS</button>
+
+<!-- Modal -->
+<div class="modal fade" id="ModalHeader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog text-black text-center" role="document">
+    <div class="modal-content">
+      <!-- PRODUCTO - 1 -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+        </div>
+        <p><span class="text-red precios1"> $2601.00</span></p>
+      </div>
+
+      <!-- PRODUCTO - 2 -->
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+        </div>
+        <p><span class="text-red precios1"> $2601.00</span></p>
+      </div>
+
+      <!-- MODAL FOOTER -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
+        <button type="button" class="btn btn-red"><a href="paso1.html">COMPRAR</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of Modal -->
         <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
-      <!--BUSCADOR-->
       </ul>
+
+      <!--HIDDEN DESKTOP-->
       <ul class="w-100 d-none d-block d-md-none bg-black p-4 font-small" >
-        <li class="mb-1"><a href="#">¿Como comprar?</a></li>
-        <li class="mb-1"><a href="#">Sucursales</a></li>
-        <li class="mb-1"><a href="#">Medios de envío</a></li>
-        <li class="mb-1"><a href="#">Contáctanos</a></li>
-        <li class="mb-1"><a href="#">Política de privacidad</a></li>
+        <li class="mb-1 white-link"><a href="#">¿Como comprar?</a></li>
+        <li class="mb-1 white-link"><a href="#">Sucursales</a></li>
+        <li class="mb-1 white-link"><a href="#">Medios de envío</a></li>
+        <li class="mb-1 white-link"><a href="#">Contáctanos</a></li>
+        <li class="mb-1 white-link"><a href="#">Política de privacidad</a></li>
       </ul>
       <form class="form-inline d-none d-block d-md-none my-2 my-lg-0">
         <input class="form-control mr-sm-2 w-100" type="search" placeholder="Buscar" aria-label="Search">
