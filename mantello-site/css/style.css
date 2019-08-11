@@ -180,7 +180,7 @@ ul {
 .submenu-mantello{}
 
 /* (1024x768) iPad 1 & 2, XGA */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 990px) {
   .nav li ul {
       display: none;
       position: relative !important;

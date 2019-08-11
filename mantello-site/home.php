@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <title>Home</title>
 </head>
@@ -223,18 +222,17 @@
     </div>
   </div>
 
-  <!--______________________________FOOTER-->
+  <!--______________________________MAP-->
   <?php include_once("maps.php");  ?>
-  <!--______________________________ FIN FOOTER-->
+  <!--______________________________ FIN MAP-->
 
-  <!--______________________________FOOTER-->
+  <!--______________________________NOVEDADES->
   <?php include_once("novedades-fee.php");  ?>
-  <!--______________________________ FIN FOOTER-->
+  <!______________________________ FIN NOVEDADES-->
 </div>
 
-
   <!--______________________________FOOTER-->
-  <?php   require_once("footer.php");  ?>
+  <?php require_once("footer.php");  ?>
   <!--______________________________ FIN FOOTER-->
 
 </body>

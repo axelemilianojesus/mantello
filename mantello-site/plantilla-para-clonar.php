@@ -6,11 +6,22 @@
 </head>
 
 <body>
-<!--______________________________HEADER-->
-<?php
-require_once("header.php");
-?>
-<!--______________________________ FIN HEADER-->
+  <!--______________________________HEADER-->
+  <?php require_once("header.php"); ?>
+  <!--______________________________ FIN HEADER-->
+
+  <!--______________________________ SLIDER-->
+  <?php include_once("main-banner.php"); ?>
+    <!--______________________________ FIN SLIDER-->
+
+
+    <!--______________________________ BUSCADOR-->
+    <?php   include_once("buscador.php");  ?>
+    <!--______________________________ FIN BUSCADOR-->
+
+    <!--______________________________ SLIDER SERVICIOS-->
+    <?php  include_once("services-banner.php");  ?>
+      <!--______________________________ FIN SLIDER SERVICIOS-->
 
 <div class="container-fluid">
 	<div class="row">
@@ -66,11 +77,18 @@ require_once("header.php");
 </div>
 
 
-  <!--______________________________FOOTER-->
-  <?php
-  require_once("footer.php");
-  ?>
-  <!--______________________________ FIN FOOTER-->
+<!--______________________________MAP-->
+<?php include_once("maps.php");  ?>
+<!--______________________________ FIN MAP-->
+
+<!--______________________________NOVEDADES->
+<?php include_once("novedades-fee.php");  ?>
+<!______________________________ FIN NOVEDADES-->
+</div>
+
+<!--______________________________FOOTER-->
+<?php require_once("footer.php");  ?>
+<!--______________________________ FIN FOOTER-->
 
 </body>
 

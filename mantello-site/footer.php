@@ -27,19 +27,19 @@
       </div>
     </div>
   </div>
-  
+
 <div class="container-fluid bg-dark">
-  	<div class="row border-top-red py-md-5 py-sm-2 footer">
-      <div class=" row max-width mx-3 col-12 m-auto px-5">
+  	<div class="row border-top-red py-md-5 py-sm-3 footer text-left text-sm-center">
+      <div class=" row container mx-3 col-12 m-auto px-5">
 
       <div class="col-md-4 col-sm-6">
-  			<p><img alt="Mantello logo" src="img/mantello-logo-degrade.png" width="100px"/></p>
+  			<p><img alt="Mantello logo" src="img/mantello-ISOLOGO-W.png" width="80%"/></p>
 
         <h3 class="d-block">CONTACTO</h3>
         <ul class="text-white font-small">
-          <li class="mb-2 font-italic">+54 9 261 559-7990</li>
-          <li class="mb-2 font-italic">51 4215314 / 4213367</li>
-          <li class="mb-2 font-italic">ventas@mantelloneumaticos.com.ar</li>
+          <li class="mb-2 font-italic"><i class="fab fa-whatsapp"></i><a href="tel:+54 9 261 559-7990" target="_blank">+54 9 261 559-7990</a></li>
+          <li class="mb-2 font-italic"><i class="fas fa-phone-alt"></i><a href="tel:+54 0261 4215314" target="_blank">4215314 </a> / <a href="tel:+54 0261 4213367" target="_blank">4213367</a></li>
+          <li class="mb-2 font-italic"><i class="fab fa-telegram-plane"></i><a href="mailto:ventas@mantelloneumaticos.com.ar" target="_blank">ventas@mantelloneumaticos.com.ar</a></li>
 
         </ul>
 
@@ -49,11 +49,11 @@
 
         <h3 class="d-block">SUCURSALES</h3>
         <ul class="text-white font-small">
-          <li class="mb-2 font-italic">⚫Francisco Gabrielli 3885, Maipú</li>
-          <li class="mb-2 font-italic">🔴Mitre 25 y lat norte Acc Este</li>
-          <li class="mb-2 font-italic">⚫S.Martín y Rivadavia, GCruz</li>
-          <li class="mb-2 font-italic">🔴Maza 347, Maipu</li>
-          <li class="mb-2 font-italic">⚫Azcuénaga 496, Luján</li>
+          <li class="mb-2 font-italic"><a href="#" target="_blank">⚫Francisco Gabrielli 3885, Maipú</a></li>
+          <li class="mb-2 font-italic"><a href="#" target="_blank">🔴Mitre 25 y lat norte Acc Este</a></li>
+          <li class="mb-2 font-italic"><a href="#" target="_blank">⚫S.Martín y Rivadavia, GCruz</a></li>
+          <li class="mb-2 font-italic"><a href="#" target="_blank">🔴Maza 347, Maipu</a></li>
+          <li class="mb-2 font-italic"><a href="#" target="_blank">⚫Azcuénaga 496, Luján</a></li>
         </ul>
   			<p>
   				<a class="btn text-white mt-2" href="#">Formulario de Contacto</a>
@@ -80,6 +80,6 @@
 
   <div class="row w-100 bg-black text-center pt-2">
     <div class="col-md-12 font-small text-white-50 font-italic">
-      <p>Copyright @2019 | Estudio Furia</p>
+      <p>Copyright @2019 Mantello Neumáticos | Diseñado por <a href="www.estudiofuria.com" target="_blank">Estudio Furia</a></p>
     </div>
   </div>

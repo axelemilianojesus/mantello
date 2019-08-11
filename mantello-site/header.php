@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -18,11 +18,9 @@
   <link href="css/all.min.css" rel="stylesheet">
 
 
-  <!-- Personal CSS
-    <link href="css/style.css" rel="stylesheet" type="text/css">-->
+  <!-- Personal CSS-->
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="css/botones.css" rel="stylesheet" type="text/css">
-  <!--<link href="css/popup.css" rel="stylesheet" type="text/css">-->
 
 </head>
 
