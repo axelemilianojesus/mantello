@@ -17,6 +17,7 @@ body {
 
 p {
   font-weight: 300;
+  font-size: 14px;
 }
 
 a {
@@ -85,6 +86,21 @@ a {
   height: 60px;
   margin: auto;
 }
+/*-------------------------------------------------CARROUSEL*/
+
+.carousel-caption {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    z-index: 10;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    background: #00000080;
+}
+.carousel-caption h2{ font-weight: 900; letter-spacing: 4px;}
 /*-------------------------------------------------FORMS*/
 .navbar .form-control {
   /*height: calc(1 + 1rem);*/
@@ -113,10 +129,6 @@ select {
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-
-
-
-
 /*-------------------------------------------------MENU*/
 .navbar-toggler {
   color: black;
@@ -144,7 +156,7 @@ ul {
   position: absolute;
   min-width: 140px;
   background-color: black;
-  z-index: 3;
+  z-index: 30;
   line-height: 2;
   padding: 20px;
   font-weight: 100;

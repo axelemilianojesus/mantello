@@ -7,123 +7,21 @@
 
 <body>
 <!--______________________________HEADER-->
-<?php
-require_once("header.php");
-?>
+<?php require_once("header.php"); ?>
 <!--______________________________ FIN HEADER-->
 
 <!--______________________________ SLIDER-->
-<?php
-include_once("main-banner.php");
-?>
+<?php include_once("main-banner.php"); ?>
   <!--______________________________ FIN SLIDER-->
 
 
-  <!--______________________________ BUSCADOR SOLO XS
-  <div class="visible-sm d-block d-sm-none">
-    <div class="text-center">
-      <p class="bscpalabr">BUSCADOR</p>
-    </div>
-  </div>-->
+  <!--______________________________ BUSCADOR-->
+  <?php   include_once("buscador.php");  ?>
+  <!--______________________________ FIN BUSCADOR-->
 
-
-
-  <div class="container my-5">
-    <div class="col-12 mx-auto">
-        <div class="col-xl-12 col-md-12 col-12">
-          <div class="col-xl-2 col-lg-2 d-none d-md-block d-lg-none d-none d-lg-block d-xl-none"></div>
-          <div class="col-xl-2 col-lg-2 img-fluid d-none d-md-block d-lg-none d-none d-lg-block d-xl-none">
-            <img src="img/buscar/ruedabusqueda.jpg" class="img-fluid">
-          </div>
-          <div class="col-lg-8 col-md-12 mx-auto">
-            <div id="logo" class="text-center">
-              <div class="row">
-                <div class="w-100">
-                  <p>BUSCÁ TU <span class="bold">CUBIERTA</span> <span class="text-red">ACÁ</span></p>
-                </div>
-                <div class="col-lg-3 col-md-12 col-12">
-                  <div class="form-group">
-                    <select name="diametro">
-                      <option selected>205</option>
-                      <option>165</option>
-                      <option>175</option>
-                      <option>185</option>
-                      <option>190</option>
-                      <option>195</option>
-                      <option>205</option>
-                      <option>215</option>
-                      <option>240</option>
-                      <option>245</option>
-                      <option>250</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-12">
-                  <div class="form-group">
-                    <select name="rodado">
-                      <option selected>55</option>
-                      <option>35</option>
-                      <option>40</option>
-                      <option>45</option>
-                      <option>50</option>
-                      <option>55</option>
-                      <option>60</option>
-                      <option>65</option>
-                    </select>
-
-                  </div>
-                </div>
-                <div class="col-lg-3 col-md-12 col-12">
-                  <div class="form-group ">
-                    <select name="medida">
-                      <option selected>16</option>
-                      <option>13</option>
-                      <option>14</option>
-                      <option>15</option>
-                      <option>16</option>
-                      <option>17</option>
-                      <option>18</option>
-                      <option>19</option>
-                      <option>20</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div class="col-md-3 col-sm-12 col-xs-12">
-                  <span class="input-group-btn">
-                    <button class="btn btn-success height-equal p-1 w-100" type="submit">
-                      <i class="fas fa-search"></i> &nbsp<a href="neumaticos.html">Buscar</a>
-                    </button>
-                  </span>
-                </div>
-
-              </div>
-            </div>
-            <div class="mt-5 text-center">
-              <p>BUSCADOR <span class="text-black">GENERAL</p>
-            </div>
-            <form role="form" id="form-buscar">
-              <div class="form-group">
-                <div class="input-group">
-                  <input id="1" class="form-control " type="text" name="search" placeholder="205 / 55 R 16" required />
-                  <span class="input-group-btn">
-                    <button class="btn btn-success height-equal" type="submit">
-                      <i class="glyphicon glyphicon-search" aria-hidden="true"></i><a href="resultbusc.html">Buscar</a>
-                    </button>
-                  </span>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-
-  </div>
 
   <!--______________________________ SLIDER SERVICIOS-->
-  <?php
-  include_once("services-banner.php");
-  ?>
+  <?php  include_once("services-banner.php");  ?>
     <!--______________________________ FIN SLIDER SERVICIOS-->
 
   <div class="divider">
@@ -324,94 +222,19 @@ include_once("main-banner.php");
 
     </div>
   </div>
-<!-- SUCURSALES -->
-  <div class="divider">
-    <p class=""><span class="text-red">SUCURSALES</span></p>
-  </div>
 
-<!-- MAPA -->
- <div class="container-fluid">
-    <div class="row">
-      <div class="w-100">
-
-
-        <!-- Start Carousel -->
-        <div id="custom_carousel" class="carousel slide hidden-xsd-none d-sm-block" data-ride="carousel" data-interval="0">
-          <div class="row">
-            <div class="col-md-4 col-sm-4 bg-dark">
-              <div class="">
-
-                <ul class="nav navbar-nav navbar-left menumapa">
-                  <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#">
-                      <h4 class="bold uppercase">Maipu</h4>
-                      <p>Gobernador Francisco José Gabrielli 3885
-                        0261 493-2884</p>
-                    </a></li>
-                  <li data-target="#custom_carousel" data-slide-to="1" class="active"><a href="#">
-                      <h4 class="bold uppercase">Guaymallén</h4>
-                      <p>Av. Mitre 25
-                        0261 431-3356</p>
-                    </a></li>
-                  <li data-target="#custom_carousel" data-slide-to="2" class="active"><a href="#">
-                      <h4 class="bold uppercase">Godoy Cruz</h4>
-                      <p>Av. San Martín 22
-                        0261 435-0555</p>
-                    </a></li>
-                </ul>
-              </div>
-            </div>
-
-            <div id="carouselExampleControls" class="carousel slide col-sm-8 m-0 p-0 bg-dark" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="graph-content"> <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.6424967008466!2d-68.80134568495413!3d-32.93404247858004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1b18d186b04fa5f%3A0xc0503a757802fed!2sMANTELLO+NEUM%C3%81TICOS!5e0!3m2!1ses!2sar!4v1556776442627!5m2!1ses!2sar"
-          width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-    </div>
-    <div class="carousel-item">
-      <div class="graph">
-        <div class="graph-content"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26794.88854131183!2d-68.84124456399141!3d-32.91505740277091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90a4f7d8b9bdc30!2sMANTELLO+NEUM%C3%81TICOS!5e0!3m2!1ses!2sar!4v1557180642962!5m2!1ses!2sar"
-            width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="graph">
-        <div class="graph-content"><iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53595.35798015863!2d-68.83799454272093!3d-32.90592968840463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1b18d37abf1e8b7%3A0x8728e2f77464e2bc!2sMANTELLO+NEUM%C3%81TICOS!5e0!3m2!1ses!2sar!4v1558186773271!5m2!1ses!2sar"
-            width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-      </div>
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!--______________________________FOOTER-->
-  <?php
-include_once("novedades-fee.php");
-  ?>
+  <?php include_once("maps.php");  ?>
+  <!--______________________________ FIN FOOTER-->
+
+  <!--______________________________FOOTER-->
+  <?php include_once("novedades-fee.php");  ?>
   <!--______________________________ FIN FOOTER-->
 </div>
 
 
   <!--______________________________FOOTER-->
-  <?php
-  require_once("footer.php");
-  ?>
+  <?php   require_once("footer.php");  ?>
   <!--______________________________ FIN FOOTER-->
 
 </body>

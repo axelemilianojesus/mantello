@@ -13,22 +13,22 @@
         <div class="carousel-item active">
           <img src="img/slider/banner.jpg" width="100%" class="d-block w-100" alt="Mantello">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h2>PROMOCIONES</h2>
+            <p>Neumaticos Bridgestone, el número uno del mundo!</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/slider/banner-tarjetas.jpg" width="100%" class="d-block w-100" alt="Mantello">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2>RECIBIMOS TARJETAS</h2>
+            <p>También Ahora 12 y Ahora 18</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="img/slider/banner-alineacion.jpg" width="100%" class="d-block w-100" alt="Mantello">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h2>ALINEACIÓN Y BALANCEO GRATIS</h2>
+            <p>Cambiando aceite y filtro</p>
           </div>
         </div>
       </div>
