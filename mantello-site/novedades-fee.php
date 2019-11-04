@@ -1,6 +1,6 @@
 <!--______________________________  NOVEDADES-->
 <div class="divider">
-  <p class="text-red">NOVEDADES</p>
+  <p class="text-red">ÚLTIMAS NOVEDADES</p>
 </div>
 
 <div class="container" id="novedades">

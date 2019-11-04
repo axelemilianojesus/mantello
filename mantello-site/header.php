@@ -41,7 +41,7 @@
     <div class="max-width display-menu mx-auto font-small">
 
     <div class="logo float-left">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="home.php">
       <img src="img/mantello-ISOLOGO-W.png" alt="isologo" width="180px">
     </a>
     </div>
@@ -81,9 +81,9 @@
             <li class="subm2"><a class="submenu-mantello" href="3sintetico.html">Aceite sintético</a></li>
           </ul>
         </li>
-        <li><a href="#contact">BATERIAS</a></li>
-        <li><a href="servicios.html">SERVICIOS</a></li>
-        <li><a href="novedades.html">NOVEDADES</a></li>
+        <li><a href="baterias.php">BATERIAS</a></li>
+        <li><a href="servicios.php">SERVICIOS</a></li>
+        <li><a href="novedades.php">NOVEDADES</a></li>
         <li><a href="#ModalHeader" data-toggle="modal" data-target="#ModalHeader"><i class="fas fa-shopping-cart font-xl"></i></a></li>
         <button type="button" class="btn btn-primary my-1">OFERTAS</button>
 

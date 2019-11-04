@@ -320,5 +320,5 @@ h6 {
 .footer {
   color: white;
   background: black !important;
-  font-size:12px;
 }
+.footer a{font-size:11px !important;}

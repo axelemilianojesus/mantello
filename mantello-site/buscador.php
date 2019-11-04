@@ -68,7 +68,7 @@
               <div class="col-md-3 col-sm-12 col-xs-12">
                 <span class="input-group-btn">
                   <button class="btn btn-success height-equal p-1 w-100" type="submit">
-                    <i class="fas fa-search"></i> &nbsp<a href="neumaticos.html">Buscar</a>
+                    <i class="fas fa-search"></i> &nbsp<a href="resultados-busqueda.php">Buscar</a>
                   </button>
                 </span>
               </div>
@@ -84,7 +84,7 @@
                 <input id="1" class="form-control " type="text" name="search" placeholder="205 / 55 R 16" required />
                 <span class="input-group-btn">
                   <button class="btn btn-success height-equal" type="submit">
-                    <i class="glyphicon glyphicon-search" aria-hidden="true"></i><a href="resultbusc.html">Buscar</a>
+                    <i class="glyphicon glyphicon-search" aria-hidden="true"></i><a href="resultados-busqueda.php">Buscar</a>
                   </button>
                 </span>
               </div>

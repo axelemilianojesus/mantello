@@ -29,11 +29,11 @@
   </div>
 
 <div class="container-fluid bg-dark">
-  	<div class="row border-top-red py-md-5 py-sm-3 footer text-left text-sm-center">
+  	<div class="row border-top-red py-md-5 py-sm-3 text-left text-sm-center footer">
       <div class=" row container mx-3 col-12 m-auto px-5">
 
       <div class="col-md-4 col-sm-6">
-  			<p><img alt="Mantello logo" src="img/mantello-ISOLOGO-W.png" width="80%"/></p>
+  			<a href="home.php"><img alt="Mantello logo" src="img/mantello-ISOLOGO-W.png" width="80%"/></a>
 
         <h3 class="d-block">CONTACTO</h3>
         <ul class="text-white font-small">

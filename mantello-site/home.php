@@ -27,7 +27,7 @@
     <p class="textoblanco1">PRODUCTOS<span class="text-red"> DESTACADOS</span></p>
   </div>
 
-
+<!--______________________________ FILA PRODUCTOS-->
   <div class="container">
     <div class="row">
      <!-- PRODUCTO -->
@@ -221,6 +221,8 @@
 
     </div>
   </div>
+
+  <!--______________________________ FILA PRODUCTOS-->
 
   <!--______________________________MAP-->
   <?php include_once("maps.php");  ?>
