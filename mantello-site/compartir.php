@@ -1,90 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <title>Novedad</title>
   <style type="text/css">
 
-#share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
-display: inline;
-}
+  #share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  }
 
-</style>
+  </style>
 </head>
-
-<body>
-  <!--______________________________HEADER-->
-  <?php require_once("header.php"); ?>
-  <!--______________________________ FIN HEADER-->
-
-
-  <!--______________________________BANNER-->
-  <?php require_once("simple-banner.php"); ?>
-  <!--______________________________ FIN BANNER-->
-  <div class="divider">
-    <p class="text-red">NOVEDADES</p>
-  </div>
-
-  <div class="container">
-  	<div class="row">
-      <div class="col-lg-12  p-5 text-center mt-3 mb-3">
-
-
-  			<h2 class="estilorojo">
-  				Bridgestone, proveedor de Nissan y Toyota
-  			</h2>
-        <h4>El 2019 se viene cargado de nuevos proyectos, uno de los cuales será producir seis pick up en la Argentina.</h4>
-        <hr m-5>
-  			<p>
-  				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-  			</p>
-
-        <!--_____________________________ LINEA-->
-      <hr class="m-5">
-        <!--_____________________________ FIN LINEA-->
-  <div class="row">
-    <div class="col-md-6 p-3">
-      <img alt="Bootstrap Image Preview" src="https://i.ytimg.com/vi/eIkn0laTtRw/maxresdefault.jpg" width="100%"  />
-    </div>
-    <div class="col-md-6 p-3">
-      <h3>
-        h3. Lorem ipsum dolor sit amet.
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-      </p>
-      <button type="button" class="btn btn-success">
-        Button
-      </button>
-    </div>
-  </div>
-
-
-
-  			<blockquote class="blockquote">
-  				<p class="mt-5">
-  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-  				</p>
-  				<footer class="blockquote-footer">
-  					Someone famous in <cite>Source Title</cite>
-  				</footer>
-  			</blockquote>
-  			<button type="button" class="btn btn-success">
-  				Button
-  			</button>
-  		</div>
-  	</div>
-  </div>
 
 <hr class="m-3">
   <!-- COMPARTIR -->
 <div id="share-buttons" class="col-lg-12  p-1 text-center mt-1 mb-5">
   <h3 class="estilorojo">
-COMPARTE ESTA NOTICIA
+COMPARTIR
   </h3>
 
 
@@ -159,12 +91,3 @@ COMPARTE ESTA NOTICIA
     </a>
 
 </div>
-
-
-<!--______________________________FOOTER-->
-<?php require_once("footer.php");  ?>
-<!--______________________________ FIN FOOTER-->
-
-</body>
-
-</html>

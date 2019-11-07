@@ -70,7 +70,7 @@
           <li class="mb-2 font-italic">Servicentro</li>
         </ul>
         <p>
-  				<a class="btn text-white mt-2" href="#">Promociones</a>
+  				<a class="btn text-white mt-2" href="ofertas.php">Promociones</a>
   			</p>
   		</div>
 

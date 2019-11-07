@@ -76,16 +76,28 @@
         </li>
         <li><a href="#contact">LUBRICANTES</a>
           <ul>
-            <li class="subm2"><a class="submenu-mantello" href="3mineral.html">Aceite mineral</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="aceite-mineral.php">Aceite mineral</a></li>
             <li class="subm2"><a class="submenu-mantello" href="3semisintetico.html">Aceite semi sintético</a></li>
             <li class="subm2"><a class="submenu-mantello" href="3sintetico.html">Aceite sintético</a></li>
           </ul>
         </li>
         <li><a href="baterias.php">BATERIAS</a></li>
-        <li><a href="servicios.php">SERVICIOS</a></li>
+        <li><a href="servicios.php">SERVICIOS</a>
+          <ul>
+            <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Lubricentro</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Alineacion y Balanceo</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Amortiguadores</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Gomeria</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Asistencia</a></li>
+
+          </ul>
+
+
+        </li>
         <li><a href="novedades.php">NOVEDADES</a></li>
         <li><a href="#ModalHeader" data-toggle="modal" data-target="#ModalHeader"><i class="fas fa-shopping-cart font-xl"></i></a></li>
-        <button type="button" class="btn btn-primary my-1">OFERTAS</button>
+        <a href="ofertas.php">
+        <button type="button" class="btn btn-primary my-1">OFERTAS</button></a>
 
 <!-- Modal -->
 <div class="modal fade" id="ModalHeader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
