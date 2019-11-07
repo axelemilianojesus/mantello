@@ -25,7 +25,7 @@
       <div class="container wow fadeIn">
 
         <!-- Heading -->
-        <h2 class="my-5 h2 text-center">Checkout form</h2>
+        <h2 class="my-5 h2 text-center">Formulario de Checkout</h2>
 
         <!--Grid row-->
         <div class="row">
@@ -48,7 +48,7 @@
                     <!--firstName-->
                     <div class="md-form ">
                       <input type="text" id="firstName" class="form-control">
-                      <label for="firstName" class="">First name</label>
+                      <label for="firstName" class="">Nombre</label>
                     </div>
 
                   </div>
@@ -60,7 +60,7 @@
                     <!--lastName-->
                     <div class="md-form">
                       <input type="text" id="lastName" class="form-control">
-                      <label for="lastName" class="">Last name</label>
+                      <label for="lastName" class="">Apellido</label>
                     </div>
 
                   </div>
@@ -86,13 +86,13 @@
                 <!--address-->
                 <div class="md-form mb-5">
                   <input type="text" id="address" class="form-control" placeholder="1234 Main St">
-                  <label for="address" class="">Address</label>
+                  <label for="address" class="">Direccion</label>
                 </div>
 
                 <!--address-2-->
                 <div class="md-form mb-5">
                   <input type="text" id="address-2" class="form-control" placeholder="Apartment or suite">
-                  <label for="address-2" class="">Address 2 (optional)</label>
+                  <label for="address-2" class="">Direccion 2 (opcional)</label>
                 </div>
 
                 <!--Grid row-->
@@ -101,13 +101,17 @@
                   <!--Grid column-->
                   <div class="col-lg-4 col-md-12 mb-4">
 
-                    <label for="country">Country</label>
+                    <label for="country">Paiz</label>
                     <select class="custom-select d-block w-100" id="country" required>
-                      <option value="">Choose...</option>
-                      <option>United States</option>
+                      <option value="">Elegir...</option>
+                      <option>Argentina</option>
+                        <option>Brasil</option>
+                          <option>Chile</option>
+                            <option>Uruguay</option>
+                              <option>Paraguay</option>
                     </select>
                     <div class="invalid-feedback">
-                      Please select a valid country.
+                      Seleccionar un país válido.
                     </div>
 
                   </div>
@@ -116,13 +120,15 @@
                   <!--Grid column-->
                   <div class="col-lg-4 col-md-6 mb-4">
 
-                    <label for="state">State</label>
+                    <label for="state">Provincoa</label>
                     <select class="custom-select d-block w-100" id="state" required>
                       <option value="">Choose...</option>
-                      <option>California</option>
+                      <option>Mendoza</option>
+                        <option>San Luis</option>
+                          <option>Córdoba</option>
                     </select>
                     <div class="invalid-feedback">
-                      Please provide a valid state.
+                      Seleccionar provincia Válida
                     </div>
 
                   </div>
@@ -131,10 +137,10 @@
                   <!--Grid column-->
                   <div class="col-lg-4 col-md-6 mb-4">
 
-                    <label for="zip">Zip</label>
+                    <label for="zip">Código Postal</label>
                     <input type="text" class="form-control" id="zip" placeholder="" required>
                     <div class="invalid-feedback">
-                      Zip code required.
+                      Código Postal Válido.
                     </div>
 
                   </div>
@@ -204,7 +210,7 @@
                   </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar Checkout</button>
 
               </form>
 

@@ -10,31 +10,6 @@
   <?php require_once("header.php"); ?>
   <!--______________________________ FIN HEADER-->
 
-  <!--______________________________ SLIDER-->
-  <div class="container-fluid">
-    <div class="row">
-
-    <div class="bd-example w-100">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/slider/banner-lubricentro.jpg" width="100%"  alt="Mantello">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>PRODUCTO</h2>
-            <p>Producto de Mantello Neumaticos Mendoza</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-    </div>
-  </div>
-    <!--______________________________ FIN SLIDER-->
-
-
     <div class="divider">
       <p class="text-red">PRODUCTO</p>
     </div>
@@ -55,7 +30,7 @@
     <section class="text-center mb-5">
 
       <!-- Section heading -->
-      <h3 class="font-weight-bold mb-5">Product Details</h3>
+      <h3 class="font-weight-bold mb-5">Detalles del producto</h3>
 
     	<div class="row">
 
@@ -99,19 +74,20 @@
               </div>
               <div class="col-lg-5 mr-3 text-center text-md-left">
                 <h2 class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">
-                  <strong>Sony headphones</strong>
+                  <strong>Neumático Bridgestone</strong>
                 </h2>
-                <span class="badge badge-danger product mb-4 ml-xl-0 ml-4">bestseller</span>
+                <span class="badge badge-danger product mb-4 ml-xl-0 ml-4">EL más vendido</span>
                 <h3 class="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
                   <span class="red-text font-weight-bold">
-                    <strong>$49</strong>
+                    <strong>$4119</strong>
                   </span>
                   <span class="grey-text">
                     <small>
-                      <s>$89</s>
+                      <s>$6889</s>
                     </small>
                   </span>
                 </h3>
+                <p>12 cuotas sin interés de $216.75</p>
 
                 <!--Accordion wrapper-->
                 <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
@@ -147,7 +123,7 @@
                     <div class="card-header" role="tab" id="headingTwo2">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
                         <h5 class="mb-0">
-                          Details
+                          Promociones con tarjetas
                           <i class="fas fa-angle-down rotate-icon"></i>
                         </h5>
                       </a>
@@ -171,7 +147,7 @@
                     <div class="card-header" role="tab" id="headingThree3">
                       <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
                         <h5 class="mb-0">
-                          Shipping
+                          Envío
                           <i class="fas fa-angle-down rotate-icon"></i>
                         </h5>
                       </a>
@@ -193,7 +169,7 @@
                 <!-- Add to Cart -->
                 <section class="color">
                   <div class="mt-5">
-                    <p class="grey-text">Choose your color</p>
+                    <p class="grey-text">Elige tu color</p>
                     <div class="row text-center text-md-left">
 
                       <div class="col-md-4 col-12 ">
@@ -221,11 +197,25 @@
 
                     <div class="row mt-3 mb-4">
                       <div class="col-md-12 text-center text-md-left text-md-right">
-                        <button class="btn btn-primary btn-rounded">
-                          <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button>
+                        <!-- <button class="btn btn-primary btn-rounded">
+                          <i class="fas fa-cart-plus mr-2" aria-hidden="true"></i> Add to cart</button> -->
+                          <form class="d-flex justify-content-left">
+                            <!-- Default input -->
+                            <input type="number" value="1" aria-label="Search" class="form-control" style="width: 50%">
+                            <button class="btn btn-primary btn-md my-0 p-2 w-100" type="submit"><a href="carrito.php">Agregar al Carrito
+                              <i class="fas fa-shopping-cart ml-1"></i></a>
+                            </button>
+
+                          </form>
                       </div>
                     </div>
+                    <div class="tarjetas">
+                      <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas">
+                    </div>
                   </div>
+                  <!--______________________________COMPARTIR-->
+                  <?php include_once("compartir.php");  ?>
+                  <!--______________________________ FIN COMPARTIR-->
                 </section>
                 <!-- /.Add to Cart -->
               </div>
@@ -243,9 +233,25 @@
 
 
 
+  <div class="container mt-5">
+
+<hr>
+    <!--Section: Content-->
+    <section class="mx-md-5 dark-grey-text text-center">
+
+      <!-- Section heading -->
+      <h3 class="font-weight-bold mb-4 pb-2">Productos Relacionados</h3>
+      <!-- Section description -->
+      <p class="grey-text w-responsive mx-auto mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit fugit, error amet numquam iure provident voluptate esse quasi nostrum quisquam eum porro a pariatur veniam.</p>
+
+      <!--______________________________PRODUCTOS-->
+      <?php include_once("productos-random.php");  ?>
+      <!--______________________________ PRODUCTOS-->
+
 </div>
 </div>
-<!--_____________________________ DESCRIPCION PRODUCTO-->
+</div>
+
 
 
 

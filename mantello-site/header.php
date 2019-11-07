@@ -28,9 +28,9 @@
   <div class="bg-black w-100 d-none d-md-block">
     <div class="max-width mx-auto d-table">
     <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup font-small" >
-      <li><a href="legales.php">¿Como comprar?</a></li>
+      <li><a href="como-comprar.php">¿Como comprar?</a></li>
       <li><a href="sucursales.php">Sucursales</a></li>
-      <li><a href="legales.php">Medios de envío</a></li>
+      <li><a href="medios-envio.php">Medios de envío</a></li>
       <li><a href="contacto.php">Contáctanos</a></li>
       <li><a href="legales.php">Política de privacidad</a></li>
     </ul>
@@ -144,11 +144,11 @@
 
       <!--HIDDEN DESKTOP-->
       <ul class="w-100 d-none d-block d-md-none bg-black p-4 font-small" >
-        <li class="mb-1 white-link"><a href="#">¿Como comprar?</a></li>
-        <li class="mb-1 white-link"><a href="#">Sucursales</a></li>
-        <li class="mb-1 white-link"><a href="#">Medios de envío</a></li>
-        <li class="mb-1 white-link"><a href="#">Contáctanos</a></li>
-        <li class="mb-1 white-link"><a href="#">Política de privacidad</a></li>
+        <li class="mb-1 white-link"><a href="como-comprar.php">¿Como comprar?</a></li>
+        <li class="mb-1 white-link"><a href="sucursales.php">Sucursales</a></li>
+        <li class="mb-1 white-link"><a href="medios-envio.php">Medios de envío</a></li>
+        <li class="mb-1 white-link"><a href="contacto.php">Contáctanos</a></li>
+        <li class="mb-1 white-link"><a href="legales.php">Política de privacidad</a></li>
       </ul>
       <form class="form-inline d-none d-block d-md-none my-2 my-lg-0">
         <input class="form-control mr-sm-2 w-100" type="search" placeholder="Buscar" aria-label="Search">

@@ -22,63 +22,153 @@ display: inline;
   <!--______________________________ FIN HEADER-->
 
 
-  <!--______________________________BANNER-->
-  <?php require_once("simple-banner.php"); ?>
-  <!--______________________________ FIN BANNER-->
   <div class="divider">
     <p class="text-red">NOVEDADES</p>
   </div>
 
-  <div class="container">
-  	<div class="row">
-      <div class="col-lg-12  p-5 text-center mt-3 mb-3">
+
+  <div class="container mt-5 mb-5">
 
 
-  			<h2 class="estilorojo">
-  				Bridgestone, proveedor de Nissan y Toyota
-  			</h2>
+    <!--Section: Content-->
+    <section class="mx-md-5 dark-grey-text">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 mb-3">
+
+          <!-- Card -->
+          <div class="card card-cascade wider reverse">
+
+            <!-- Card image -->
+            <div class="view view-cascade overlay">
+              <img class="card-img-top" src="img/novedades/25-04.jpg" alt="Sample image">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body card-body-cascade text-center">
+
+              <!-- Title -->
+              <h3 class="font-weight-bold"><a>Bridgestone, proveedor de Nissan y Toyota</a></h3>
+              <!-- Data -->
+              <p>Escrrita por <a><strong>Mantello Neumaticos</strong></a>, 26/08/2018</p>
+
+              <!-- Social shares -->
+              <div class="social-counters">
+                <!-- Facebook -->
+                <a class="btn btn-fb">
+                  <i class="fab fa-facebook-f pr-2"></i>
+                  <span class="clearfix d-none d-md-inline-block">Facebook</span>
+                </a>
+                <span class="counter">46</span>
+                <!-- Twitter -->
+                <a class="btn btn-tw">
+                  <i class="fab fa-twitter pr-2"></i>
+                  <span class="clearfix d-none d-md-inline-block">Twitter</span>
+                </a>
+                <span class="counter">22</span>
+                <!-- Google+ -->
+                <a class="btn btn-gplus">
+                  <i class="fab fa-google-plus-g pr-2"></i>
+                  <span class="clearfix d-none d-md-inline-block">Google+</span>
+                </a>
+                <span class="counter">31</span>
+                <!-- Comments -->
+                <a class="btn btn-default">
+                  <i class="far fa-comments pr-2"></i>
+                  <span class="clearfix d-none d-md-inline-block">Comments</span>
+                </a>
+                <span class="counter">18</span>
+              </div>
+              <!-- Social shares -->
+
+            </div>
+            <!-- Card content -->
+
+          </div>
+          <!-- Card -->
+
+        </div>
+
+
         <h4>El 2019 se viene cargado de nuevos proyectos, uno de los cuales será producir seis pick up en la Argentina.</h4>
-        <hr m-5>
-  			<p>
-  				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-  			</p>
+        <hr>
+        <!-- Excerpt -->
+        <div class="mt-2">
 
-        <!--_____________________________ LINEA-->
-      <hr class="m-5">
-        <!--_____________________________ FIN LINEA-->
-  <div class="row">
-    <div class="col-md-6 p-3">
-      <img alt="Bootstrap Image Preview" src="https://i.ytimg.com/vi/eIkn0laTtRw/maxresdefault.jpg" width="100%"  />
-    </div>
-    <div class="col-md-6 p-3">
-      <h3>
-        h3. Lorem ipsum dolor sit amet.
-      </h3>
-      <p>
-        Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-      </p>
-      <button type="button" class="btn btn-success">
-        Button
-      </button>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui praesentium voluptatum deleniti atque
+            corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+            sunt in culpa nemo enim ipsam voluptatem quia voluptas sit qui officia deserunt mollitia animi, id
+            est laborum et dolorum fuga quidem rerum facilis est distinctio.
+          </p>
+          <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+            maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Quis autem vel
+            eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur. Temporibus
+            autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+            repudiandae sint et molestiae non recusandae itaque earum rerum.</p>
+
+        </div>
+
+
+
+    <div class="container my-4 py-3 z-depth-1">
+<div class="row">
+
+      <!--Section: Content-->
+      <section class=" text-center text-lg-left dark-grey-text">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 mb-md-0">
+
+            <h3 class="font-weight-bold">Material Design Blocks</h3>
+
+            <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam sapiente
+              molestiae
+              numquam quas, voluptates omnis nulla ea odio quia similique corrupti magnam, doloremque laborum.</p>
+
+            <a class="btn btn-purple btn-md ml-0" href="#" role="button">CONSULTAR</a>
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 mb-md-0">
+
+            <!--Image-->
+            <div class="view overlay z-depth-1-half">
+              <img src="img/novedades/29-04.jpg" class="img-fluid"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-light"></div>
+              </a>
+            </div>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+
+      </section>
+      <!--Section: Content-->
+
+
     </div>
   </div>
 
-
-
-  			<blockquote class="blockquote">
-  				<p class="mt-5">
-  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-  				</p>
-  				<footer class="blockquote-footer">
-  					Someone famous in <cite>Source Title</cite>
-  				</footer>
-  			</blockquote>
-  			<button type="button" class="btn btn-success">
-  				Button
-  			</button>
-  		</div>
-  	</div>
-  </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+</div>
 
 <hr class="m-3">
   <!-- COMPARTIR -->

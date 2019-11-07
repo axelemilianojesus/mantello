@@ -40,15 +40,15 @@
       }
     </style>
 
-    <div class="mask rgba-black-strong py-5">
+    <div class="mask bg-dark py-2">
 
-      <div class="container text-center my-5">
+      <div class="container text-center my-3">
 
         <h3 class="font-weight-bold text-center white-text pb-2">Noticias y Promociones</h3>
-        <p class="lead text-center white-text pt-2 mb-5">SUSCRIBITE A NUESTRO NEWSLETTER
+        <p class="lead text-center text-white pt-2 mb-2">SUSCRIBITE A NUESTRO NEWSLETTER
 y recibi nuestras mejores ofertas.</p>
 
-        <form class="input-grey mb-5" action="" method="post" target="_blank">
+        <form class="input-grey mb-3" action="" method="post" target="_blank">
           <div class="form-row">
             <div class="col-md-4 ml-auto">
               <div class="input-group input-group-lg z-depth-1">

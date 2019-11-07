@@ -83,7 +83,7 @@ a {
   align-content: center;
 }
 .divider {
-  background: #333;
+  background: black;
   padding: 20px;
   text-align: center;
   color: white;
@@ -295,6 +295,13 @@ ul {
 }
 .bg-black {
   background: black;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: white;
+    background-color: red;
+    border-color: black;
 }
 
 /*------------------------------------------------ENCABEZADOS*/

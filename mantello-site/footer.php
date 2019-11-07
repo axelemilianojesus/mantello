@@ -4,7 +4,7 @@
 
 
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-black">
   	<div class="row border-top-red py-md-5 py-sm-3 text-left text-sm-center footer">
       <div class=" row container mx-3 col-12 m-auto px-5">
 
@@ -54,8 +54,8 @@
       </div>
   </div>
 
-  <div class="row w-100 bg-black text-center pt-2">
-    <div class="col-md-12 font-small text-white-50 font-italic">
+  <div class="row w-100 bg-black text-center p-2 border-top border-danger">
+    <div class="col-md-12 font-small text-white-50 font-italic"  style="font-size:"9px;"">
       <p>Copyright @2019 Mantello Neumáticos | Diseñado por <a href="www.estudiofuria.com" target="_blank">Estudio Furia</a></p>
     </div>
   </div>
