@@ -30,10 +30,10 @@ display: inline;
 
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/slider/banner-lubricentro.jpg" width="100%"  alt="Mantello">
+          <img src="img/slider/banner-lubricentro-2.jpg" width="100%"  alt="Mantello">
           <div class="carousel-caption d-none d-md-block">
-            <h2>LUBRICENTRO</h2>
-            <p>Las mejores ofertas y promociones</p>
+            <h2>SERVICIO</h2>
+            <p>Servicios de Mantello Neumáticos</p>
           </div>
         </div>
 
@@ -89,13 +89,14 @@ Notarás un comportamiento extraño en el vehículo. A veces la dirección se ve
         <!--_____________________________ LINEA-->
       <hr class="p-3">
         <!--_____________________________ FIN LINEA-->
+        
 	<div class="row">
 		<div class="col-md-6 p-3">
 			<img alt="Bootstrap Image Preview" src="https://i.ytimg.com/vi/eIkn0laTtRw/maxresdefault.jpg" width="100%"  />
 		</div>
 		<div class="col-md-6 p-3">
 			<h3>
-				h3. Lorem ipsum dolor sit amet.
+				Descripcion de Servicio
 			</h3>
 			<p>
 				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
@@ -106,22 +107,6 @@ Notarás un comportamiento extraño en el vehículo. A veces la dirección se ve
 		</div>
 	</div>
 
-
-
-
-
-
-  			<blockquote class="blockquote">
-  				<p class="mt-5">
-  					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-  				</p>
-  				<footer class="blockquote-footer">
-  					Someone famous in <cite>Source Title</cite>
-  				</footer>
-  			</blockquote>
-  			<button type="button" class="btn btn-success">
-  				Button
-  			</button>
   		</div>
 
       <hr>

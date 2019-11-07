@@ -228,9 +228,15 @@
   <?php include_once("maps.php");  ?>
   <!--______________________________ FIN MAP-->
 
+  <!--______________________________ BUSCADOR-->
+  <?php include_once("testimonials.php");  ?>
+  <!--______________________________ FIN BUSCADOR-->
+
   <!--______________________________NOVEDADES->
   <?php include_once("novedades-fee.php");  ?>
   <!______________________________ FIN NOVEDADES-->
+
+
 </div>
 
   <!--______________________________FOOTER-->

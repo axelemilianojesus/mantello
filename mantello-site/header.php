@@ -28,11 +28,11 @@
   <div class="bg-black w-100 d-none d-md-block">
     <div class="max-width mx-auto d-table">
     <ul class="nav navbar-nav navbar-right visible-xs nav-bar-sup font-small" >
-      <li><a href="#">¿Como comprar?</a></li>
-      <li><a href="#">Sucursales</a></li>
-      <li><a href="#">Medios de envío</a></li>
-      <li><a href="#">Contáctanos</a></li>
-      <li><a href="#">Política de privacidad</a></li>
+      <li><a href="legales.php">¿Como comprar?</a></li>
+      <li><a href="sucursales.php">Sucursales</a></li>
+      <li><a href="legales.php">Medios de envío</a></li>
+      <li><a href="contacto.php">Contáctanos</a></li>
+      <li><a href="legales.php">Política de privacidad</a></li>
     </ul>
   </div>
   </div>
@@ -56,29 +56,29 @@
       <ul class="nav navbar-nav">
         <li><a href="#contact">NEUMÁTICOS</a>
           <ul>
-            <li class="subm2"><a class="submenu-mantello" href="1autos.html">Autos</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="1camionetas.html">Camionetas</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="1camiones.html">Camiones</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="1industriales.html">Industriales</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="1agricolas.html">Agrícolas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Autos</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Camionetas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Camiones</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Industriales</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Agrícolas</a></li>
           </ul>
         </li>
         <li><a href="#contact">ACCESORIOS 4X4</a>
           <ul>
-            <li class="subm2"><a class="submenu-mantello" href="2barraantivuelco.html">Barras Antivuelco</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2cobertorcaja.html">Cobertores</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2cupulas.html">Cúpulas</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2defensa.html">Defensas</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2gancheras.html">Enganches</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2estribos.html">Estribos</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="2lona.html">Lonas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Barras Antivuelco</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Cobertores</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Cúpulas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Defensas</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Enganches</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Estribos</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Lonas</a></li>
           </ul>
         </li>
         <li><a href="#contact">LUBRICANTES</a>
           <ul>
-            <li class="subm2"><a class="submenu-mantello" href="aceite-mineral.php">Aceite mineral</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="3semisintetico.html">Aceite semi sintético</a></li>
-            <li class="subm2"><a class="submenu-mantello" href="3sintetico.html">Aceite sintético</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Aceite mineral</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Aceite semi sintético</a></li>
+            <li class="subm2"><a class="submenu-mantello" href="productos.php">Aceite sintético</a></li>
           </ul>
         </li>
         <li><a href="baterias.php">BATERIAS</a></li>

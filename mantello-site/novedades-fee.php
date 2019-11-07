@@ -3,8 +3,11 @@
   <p class="text-red">ÚLTIMAS NOVEDADES</p>
 </div>
 
-<div class="container" id="novedades">
-  <div class="row">
+
+  <div class="container">
+    <div class="row">
+
+
   <!-- NOVEDAD-->
     <div class="col-lg-4 col-sm-12 content-nov bg-light my-2">
       <p class="nov-tittle">BRIDGESTONE</p>
@@ -44,5 +47,6 @@
           </div>
         </div>
 
+</div>
 </div>
   <!--______________________________ FIN SERVICIOS-->

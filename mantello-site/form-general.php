@@ -58,7 +58,7 @@ ventas@mantelloneumaticos.com.ar
 				</div>
 
 				<button type="submit" class="btn btn-primary">
-					Enviar
+					SOLICITAR TURNO
 				</button>
 			</form>
 

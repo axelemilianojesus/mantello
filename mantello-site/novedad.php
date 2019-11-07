@@ -160,6 +160,9 @@ COMPARTE ESTA NOTICIA
 
 </div>
 
+<!--______________________________FOOTER-->
+<?php include_once("novedades-fee.php");  ?>
+<!--______________________________ FIN FOOTER-->
 
 <!--______________________________FOOTER-->
 <?php require_once("footer.php");  ?>
