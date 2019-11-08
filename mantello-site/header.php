@@ -81,7 +81,7 @@
             <li class="subm2"><a class="submenu-mantello" href="productos.php">Aceite sintético</a></li>
           </ul>
         </li>
-        <li><a href="baterias.php">BATERIAS</a></li>
+        <li><a href="productos.php">BATERIAS</a></li>
         <li><a href="servicios.php">SERVICIOS</a>
           <ul>
             <li class="subm2"><a class="submenu-mantello" href="lubricentro.php">Lubricentro</a></li>
