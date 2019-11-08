@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Plantilla Mantello</title>
+  <title>Como Comprar</title>
 </head>
 
 <body>

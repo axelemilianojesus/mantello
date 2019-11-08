@@ -153,11 +153,11 @@
 
                 <div class="custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input" id="same-address">
-                  <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                  <label class="custom-control-label" for="same-address">Dirección de facturación es la misma que la dirección de ennío</label>
                 </div>
                 <div class="custom-control custom-checkbox">
                   <input type="checkbox" class="custom-control-input" id="save-info">
-                  <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                  <label class="custom-control-label" for="save-info">Guardar informacion para proxima compra</label>
                 </div>
 
                 <hr>
@@ -165,22 +165,22 @@
                 <div class="d-block my-3">
                   <div class="custom-control custom-radio">
                     <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                    <label class="custom-control-label" for="credit">Credit card</label>
+                    <label class="custom-control-label" for="credit">Tarjeta de Credito</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                    <label class="custom-control-label" for="debit">Debit card</label>
+                    <label class="custom-control-label" for="debit">Tarjeta Debito</label>
                   </div>
                   <div class="custom-control custom-radio">
                     <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                    <label class="custom-control-label" for="paypal">Paypal</label>
+                    <label class="custom-control-label" for="paypal">Mercado Pago</label>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-md-6 mb-3">
                     <label for="cc-name">Name on card</label>
                     <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                    <small class="text-muted">Full name as displayed on card</small>
+                    <small class="text-muted">Nombre completo como aparece en tarjeta</small>
                     <div class="invalid-feedback">
                       Name on card is required
                     </div>
@@ -255,7 +255,7 @@
               <li class="list-group-item d-flex justify-content-between bg-light">
                 <div class="text-success">
                   <h6 class="my-0">Promo code</h6>
-                  <small>EXAMPLECODE</small>
+                  <small>Código de ejemplo</small>
                 </div>
                 <span class="text-success">-$5</span>
               </li>

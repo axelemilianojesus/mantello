@@ -202,7 +202,7 @@
                           <form class="d-flex justify-content-left">
                             <!-- Default input -->
                             <input type="number" value="1" aria-label="Search" class="form-control" style="width: 50%">
-                            <button class="btn btn-primary btn-md my-0 p-2 w-100" type="submit"><a href="carrito.php">Agregar al Carrito
+                            <button class="btn btn-primary btn-md my-0 p-2 w-100" type="submit"><a href="carrito-compras.php">Agregar al Carrito
                               <i class="fas fa-shopping-cart ml-1"></i></a>
                             </button>
 

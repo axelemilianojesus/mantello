@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Novedades de  Mantello</title>
+  <title>Novedades</title>
 </head>
 
 <body>
