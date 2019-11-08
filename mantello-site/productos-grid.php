@@ -9,12 +9,8 @@
   <!--______________________________HEADER-->
   <?php require_once("header.php"); ?>
   <!--______________________________ FIN HEADER-->
-
-  <!--______________________________HEADER-->
-  <?php include_once("buscador.php"); ?>
-  <!--______________________________ FIN HEADER-->
   <div class="divider">
-    <p class="text-red">RESULTADOS DE BUSQUEDA</p>
+    <p class="text-red">PRODUCTOS</p>
   </div>
 
 

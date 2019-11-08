@@ -42,18 +42,18 @@
               <div class="col-lg-6">
 
                 <!--Carousel Wrapper-->
-                <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails p-md-5" data-ride="carousel">
 
                   <!--Slides-->
                   <div class="carousel-inner text-center text-md-left" role="listbox">
                     <div class="carousel-item active">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/17.jpg" alt="First slide" class="img-fluid">
+                      <img src="img/neumaticos/autos/neumatico-bridgestone-turanza-er300-20555r16-.webp" alt="neumatico" class="img-fluid">
                     </div>
                     <div class="carousel-item">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/18.jpg" alt="Second slide" class="img-fluid">
+                      <img src="img/neumaticos/autos/neumatico-bridgestone-turanza-er300-20555r16-2.webp" alt="neumatico" class="img-fluid">
                     </div>
                     <div class="carousel-item">
-                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/19.jpg" alt="Third slide" class="img-fluid">
+                      <img src="img/neumaticos/autos/neumatico-bridgestone-turanza-er300-20560r16-3.webp" alt="neumatico" class="img-fluid">
                     </div>
                   </div>
                   <!--/.Slides-->
@@ -76,7 +76,7 @@
                 <h2 class="h2-responsive text-center text-md-left product-name font-weight-bold dark-grey-text mb-1 ml-xl-0 ml-4">
                   <strong>Neumático Bridgestone</strong>
                 </h2>
-                <span class="badge badge-danger product mb-4 ml-xl-0 ml-4">EL más vendido</span>
+                <span class="badge badge-danger product mb-4 ml-xl-0 ml-4">El más vendido</span>
                 <h3 class="h3-responsive text-center text-md-left mb-5 ml-xl-0 ml-4">
                   <span class="red-text font-weight-bold">
                     <strong>$4119</strong>
@@ -176,21 +176,21 @@
                         <!--Radio group-->
                         <div class="form-group">
                           <input class="form-check-input" name="group100" type="radio" id="radio100" checked="checked">
-                          <label for="radio100" class="form-check-label dark-grey-text">Blue</label>
+                          <label for="radio100" class="form-check-label dark-grey-text">Negro</label>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <!--Radio group-->
                         <div class="form-group">
                           <input class="form-check-input" name="group100" type="radio" id="radio101">
-                          <label for="radio101" class="form-check-label dark-grey-text">Orange</label>
+                          <label for="radio101" class="form-check-label dark-grey-text">Gris</label>
                         </div>
                       </div>
                       <div class="col-md-4">
                         <!--Radio group-->
                         <div class="form-group">
                           <input class="form-check-input" name="group100" type="radio" id="radio102">
-                          <label for="radio102" class="form-check-label dark-grey-text">Red</label>
+                          <label for="radio102" class="form-check-label dark-grey-text">Rojo</label>
                         </div>
                       </div>
                     </div>
@@ -210,7 +210,7 @@
                       </div>
                     </div>
                     <div class="tarjetas">
-                      <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas">
+                      <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas width="100%"">
                     </div>
                   </div>
                   <!--______________________________COMPARTIR-->

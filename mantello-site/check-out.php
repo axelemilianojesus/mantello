@@ -2,7 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>Plantilla Mantello</title>
+  <title>CHECK OUT</title>
+  <style media="screen">
+
+    h6{ font-size: 18px !important; }
+  </style>
 </head>
 
 <body>
@@ -120,9 +124,9 @@
                   <!--Grid column-->
                   <div class="col-lg-4 col-md-6 mb-4">
 
-                    <label for="state">Provincoa</label>
+                    <label for="state">Provincia</label>
                     <select class="custom-select d-block w-100" id="state" required>
-                      <option value="">Choose...</option>
+                      <option value="">Seleccionar...</option>
                       <option>Mendoza</option>
                         <option>San Luis</option>
                           <option>Córdoba</option>
@@ -178,7 +182,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6 mb-3">
-                    <label for="cc-name">Name on card</label>
+                    <label for="cc-name">Nombre de la Tarjeta</label>
                     <input type="text" class="form-control" id="cc-name" placeholder="" required>
                     <small class="text-muted">Nombre completo como aparece en tarjeta</small>
                     <div class="invalid-feedback">
@@ -186,7 +190,7 @@
                     </div>
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="cc-number">Credit card number</label>
+                    <label for="cc-number">Número de la Tarjeta</label>
                     <input type="text" class="form-control" id="cc-number" placeholder="" required>
                     <div class="invalid-feedback">
                       Credit card number is required
@@ -195,7 +199,7 @@
                 </div>
                 <div class="row">
                   <div class="col-md-3 mb-3">
-                    <label for="cc-expiration">Expiration</label>
+                    <label for="cc-expiration">Vencimiento</label>
                     <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
                     <div class="invalid-feedback">
                       Expiration date required
@@ -210,7 +214,8 @@
                   </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar Checkout</button>
+              <a href="compra-exitosa.php">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar Checkout</button></a>
 
               </form>
 
@@ -225,7 +230,7 @@
 
             <!-- Heading -->
             <h4 class="d-flex justify-content-between align-items-center mb-3">
-              <span class="text-muted">Your cart</span>
+              <span class="text-muted">Su carrito</span>
               <span class="badge badge-secondary badge-pill">3</span>
             </h4>
 
@@ -233,34 +238,34 @@
             <ul class="list-group mb-3 z-depth-1">
               <li class="list-group-item d-flex justify-content-between lh-condensed">
                 <div>
-                  <h6 class="my-0">Product name</h6>
+                  <h6 class="my-0">Nombre de producto</h6>
                   <small class="text-muted">Brief description</small>
                 </div>
                 <span class="text-muted">$12</span>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-condensed">
                 <div>
-                  <h6 class="my-0">Second product</h6>
+                  <h6 class="my-0">Segundo producto</h6>
                   <small class="text-muted">Brief description</small>
                 </div>
                 <span class="text-muted">$8</span>
               </li>
               <li class="list-group-item d-flex justify-content-between lh-condensed">
                 <div>
-                  <h6 class="my-0">Third item</h6>
+                  <h6 class="my-0">Tercer producto</h6>
                   <small class="text-muted">Brief description</small>
                 </div>
                 <span class="text-muted">$5</span>
               </li>
               <li class="list-group-item d-flex justify-content-between bg-light">
                 <div class="text-success">
-                  <h6 class="my-0">Promo code</h6>
+                  <h6 class="my-0">Código promocional</h6>
                   <small>Código de ejemplo</small>
                 </div>
                 <span class="text-success">-$5</span>
               </li>
               <li class="list-group-item d-flex justify-content-between">
-                <span>Total (USD)</span>
+                <span>Total (AR$)</span>
                 <strong>$20</strong>
               </li>
             </ul>
@@ -271,7 +276,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-append">
-                  <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Redeem</button>
+                  <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Aplicar</button>
                 </div>
               </div>
             </form>

@@ -3,6 +3,9 @@
 
 <head>
   <title>Servicios</title>
+  <style media="screen">
+    h2 a, h2 a:visited {color:black !important;}
+  </style>
 </head>
 
 <body>
@@ -17,99 +20,333 @@
 <div class="container-fluid">
 	<div class="row">
 
-    <div class="container mt-5">
+    <!--______________________________ SERVICIO-->
 
-
-  <!--Section: Content-->
-  <section class="magazine-section mx-md-5 dark-grey-text text-center">
-
-    <!-- Section heading -->
-    <h3 class="font-weight-bold mb-4 pb-2">Our best projects</h3>
-    <!-- Section description -->
-    <p class="w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt culpa
-    qui officia deserunt est laborum.</p>
-
-  	<!-- Grid row -->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-12 mb-4">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg);">
-          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h6 class="purple-text">
-                <i class="fas fa-plane"></i>
-                <strong> Travel</strong>
-              </h6>
-              <h3 class="py-3 font-weight-bold">
-                <strong>This is card title</strong>
-              </h3>
-              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-                laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-                nulla ipsum dignissimos. Odit sed qui, dolorum!
-              </p>
-              <a class="btn btn-secondary btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
+    <div class="container py-2 my-2">
+      <section class="p-md-3 mx-md-5 text-lg-left">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="font-weight-bold mb-3 estilorojo"> <a href="lubricentro.php">ALINEACION</a></h2>
+          <p class="text-muted text-center py-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="view overlay rounded z-depth-2 mt-2 mb-2">
+            <a href="lubricentro.php"><img
+                 src="img/servicios/alineacion.jpg"
+                 class="img-fluid"
+                 alt="Sample project image"
+                 /></a>
+            <a href="lubricentro.php">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="mt-3 d-flex align-items-center">
+              <i class="far fa-paper-plane fa-2x pr-4"></i>
+              <div class="">
+                <h4 class="font-weight-bold mb-3">Servicio 1</h4>
+                <p class="text-muted mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-pen-alt pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 2</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-user amber-text pr-4 fa-2x"></i>
+              <div>
+               	<h4 class="font-weight-bold mb-3">Servicio 3</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
-      <div class="col-md-6 mb-md-0 mb-4">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
-          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h6 class="pink-text">
-                <i class="fas fa-chart-pie"></i>
-                <strong> Marketing</strong>
-              </h6>
-              <h3 class="py-3 font-weight-bold">
-                <strong>This is card title</strong>
-              </h3>
-              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-                laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-                nulla ipsum dignissimos. Odit sed qui, dolorum!
-              </p>
-              <a class="btn btn-pink btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
-          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
-            <div>
-              <h6 class="green-text">
-                <i class="fas fa-eye"></i>
-                <strong> Entertainment</strong>
-              </h6>
-              <h3 class="py-3 font-weight-bold">
-                <strong>This is card title</strong>
-              </h3>
-              <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat,
-                laboriosam, voluptatem, optio vero odio nam sit officia accusamus minus error nisi architecto
-                nulla ipsum dignissimos. Odit sed qui, dolorum!
-              </p>
-              <a class="btn btn-success btn-rounded btn-md"><i class="fas fa-clone left"></i> View project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Grid column -->
-
+        <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+        IR A SERVICIO</a>
+        </button>
+        <hr class="my-3">
+      </section>
     </div>
-    <!-- Grid row -->
+    <!--______________________________ FIN SERVICIO-->
+    <!--______________________________ SERVICIO-->
 
-  </section>
-  <!--Section: Content-->
+    <div class="container py-2 my-2">
+      <section class="p-md-3 mx-md-5 text-lg-left">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="font-weight-bold mb-3 estilorojo"> <a href="lubricentro.php">AMORTIGUADORES</a></h2>
+          <p class="text-muted text-center py-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="view overlay rounded z-depth-2 mt-2 mb-2">
+            <a href="lubricentro.php"><img
+                 src="img/servicios/amortiguadores.jpg"
+                 class="img-fluid"
+                 alt="Sample project image"
+                 /></a>
+            <a href="lubricentro.php">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="mt-3 d-flex align-items-center">
+              <i class="far fa-paper-plane fa-2x pr-4"></i>
+              <div class="">
+                <h4 class="font-weight-bold mb-3">Servicio 1</h4>
+                <p class="text-muted mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-pen-alt pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 2</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-user amber-text pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 3</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+        IR A SERVICIO</a>
+        </button>
+        <hr class="my-3">
+      </section>
+    </div>
+    <!--______________________________ FIN SERVICIO-->
+
+    <!--______________________________ SERVICIO-->
+
+    <div class="container py-2 my-2">
+      <section class="p-md-3 mx-md-5 text-lg-left">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="font-weight-bold mb-3 estilorojo"> <a href="lubricentro.php">ASISTENCOA</a></h2>
+          <p class="text-muted text-center py-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="view overlay rounded z-depth-2 mt-2 mb-2">
+            <a href="lubricentro.php"><img
+                 src="img/servicios/asistencia.jpg"
+                 class="img-fluid"
+                 alt="Sample project image"
+                 /></a>
+            <a href="lubricentro.php">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="mt-3 d-flex align-items-center">
+              <i class="far fa-paper-plane fa-2x pr-4"></i>
+              <div class="">
+                <h4 class="font-weight-bold mb-3">Servicio 1</h4>
+                <p class="text-muted mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-pen-alt pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 2</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-user amber-text pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 3</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+        IR A SERVICIO</a>
+        </button>
+        <hr class="my-3">
+      </section>
+    </div>
+    <!--______________________________ FIN SERVICIO-->
+
+    <!--______________________________ SERVICIO-->
+
+    <div class="container py-2 my-2">
+      <section class="p-md-3 mx-md-5 text-lg-left">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="font-weight-bold mb-3 estilorojo"> <a href="lubricentro.php">GOMERIA</a></h2>
+          <p class="text-muted text-center py-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="view overlay rounded z-depth-2 mt-2 mb-2">
+            <a href="lubricentro.php"><img
+                 src="img/servicios/gomeria.jpg"
+                 class="img-fluid"
+                 alt="Sample project image"
+                 /></a>
+            <a href="lubricentro.php">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="mt-3 d-flex align-items-center">
+              <i class="far fa-paper-plane fa-2x pr-4"></i>
+              <div class="">
+                <h4 class="font-weight-bold mb-3">Servicio 1</h4>
+                <p class="text-muted mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-pen-alt pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 2</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-user amber-text pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 3</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+        IR A SERVICIO</a>
+        </button>
+        <hr class="my-3">
+      </section>
+    </div>
+    <!--______________________________ FIN SERVICIO-->
 
 
-</div>
+    <!--______________________________ SERVICIO-->
+
+    <div class="container py-2 my-2">
+      <section class="p-md-3 mx-md-5 text-lg-left">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h2 class="font-weight-bold mb-3 estilorojo"> <a href="lubricentro.php">LUBRICENTRO</a></h2>
+          <p class="text-muted text-center py-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="view overlay rounded z-depth-2 mt-2 mb-2">
+            <a href="lubricentro.php"><img
+                 src="img/servicios/lubricentro.jpg"
+                 class="img-fluid"
+                 alt="Sample project image"
+                 /></a>
+            <a href="lubricentro.php">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+            <div class="mt-3 d-flex align-items-center">
+              <i class="far fa-paper-plane fa-2x pr-4"></i>
+              <div class="">
+                <h4 class="font-weight-bold mb-3">Servicio 1</h4>
+                <p class="text-muted mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-pen-alt pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 2</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-md-0 mb-5">
+            <div class="d-flex align-items-center mt-3">
+              <i class="fa fa-user amber-text pr-4 fa-2x"></i>
+              <div>
+                <h4 class="font-weight-bold mb-3">Servicio 3</h4>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+        IR A SERVICIO</a>
+        </button>
+        <hr class="my-3">
+      </section>
+    </div>
+    <!--______________________________ FIN SERVICIO-->
+
+
+
 
 	</div>
 </div>

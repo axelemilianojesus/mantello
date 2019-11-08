@@ -133,7 +133,7 @@
       <!-- MODAL FOOTER -->
       <div class="modal-footer">
         <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-        <button type="button" class="btn btn-red"><a href="paso1.html">COMPRAR</a></button>
+        <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
       </div>
     </div>
   </div>

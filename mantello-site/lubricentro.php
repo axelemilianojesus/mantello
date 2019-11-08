@@ -89,7 +89,7 @@ Notarás un comportamiento extraño en el vehículo. A veces la dirección se ve
         <!--_____________________________ LINEA-->
       <hr class="p-3">
         <!--_____________________________ FIN LINEA-->
-        
+
 	<div class="row">
 		<div class="col-md-6 p-3">
 			<img alt="Bootstrap Image Preview" src="https://i.ytimg.com/vi/eIkn0laTtRw/maxresdefault.jpg" width="100%"  />
@@ -101,9 +101,9 @@ Notarás un comportamiento extraño en el vehículo. A veces la dirección se ve
 			<p>
 				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
 			</p>
-			<button type="button" class="btn btn-success">
-				Button
-			</button>
+      <button type="button" class="btn btn-success my-3 w-100"><a href="lubricentro.php">
+      SERVICIO</a>
+      </button>
 		</div>
 	</div>
 

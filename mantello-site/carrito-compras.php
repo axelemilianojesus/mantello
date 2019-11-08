@@ -3,6 +3,31 @@
 
 <head>
   <title>Carrito de compra</title>
+
+  <style media="screen">
+  /*  carrito responsive */
+  @media only screen and (max-width: 720px) {
+    .table td, .table th {
+      padding: 0px !important;
+    }
+    td{
+      width: 25% !important;
+    }
+    .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  figure {
+    margin: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+img{
+  width: 100%
+}
+}
+
+  </style>
 </head>
 
 <body>
@@ -66,8 +91,8 @@
   		</div> <!-- price-wrap .// -->
   	</td>
   	<td class="text-right">
-  	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-  	<a href="" class="btn btn-light"> Remover</a>
+  	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light d-none d-sm-block" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
+  	<a href="" class="btn bg-dark d-block"> quitar</a>
   	</td>
   </tr>
   <tr>
@@ -94,9 +119,9 @@
   			<small  class="text-muted"> $75.00 unidad </small>
   		</div> <!-- price-wrap .// -->
   	</td>
-  	<td class="text-right">
-  	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-  	<a href="" class="btn btn-light btn-round"> Remover</a>
+    <td class="text-right">
+  	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light d-none d-sm-block" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
+  	<a href="" class="btn bg-dark d-block"> quitar</a>
   	</td>
   </tr>
   <tr>
@@ -122,17 +147,17 @@
   			<small class="text-muted"> $578.00 unidad</small>
   		</div> <!-- price-wrap .// -->
   	</td>
-  	<td class="text-right">
-  		<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
-  		<a href="" class="btn btn-light btn-round"> Remover</a>
+    <td class="text-right">
+  	<a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light d-none d-sm-block" data-toggle="tooltip"> <i class="fa fa-heart"></i></a>
+  	<a href="" class="btn bg-dark d-block"> quitar</a>
   	</td>
   </tr>
   </tbody>
   </table>
 
   <div class="card-body border-top">
-  	<a href="check-out.php" class="btn btn-primary float-md-right"> Comprar <i class="fa fa-chevron-right"></i> </a>
-  	<a href="ofertas.php" class="btn btn-light"> <i class="fa fa-chevron-left"></i> Continue Comprando </a>
+  	<a href="check-out.php" class="btn btn-primary float-md-right w-100 bold"> COMPRAR <i class="fa fa-chevron-right"></i> </a>
+  	<a href="ofertas.php" class="btn bg-dark w-100"> <i class="fa fa-chevron-left"></i> Continue Comprando </a>
   </div>
   </div> <!-- card.// -->
 
