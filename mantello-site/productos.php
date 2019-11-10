@@ -668,7 +668,9 @@ VER PRODUCTOS</a>
 </div> <!-- container .//  -->
 </section>
 <!-- ========================= SECTION CONTENT END// ========================= -->
-
+<!--______________________________ BANNERS-->
+<?php include_once("banners.php");  ?>
+<!--______________________________ FIN BANNERS-->
 
 <!--______________________________FOOTER-->
 <?php require_once("footer.php");  ?>

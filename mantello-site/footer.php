@@ -2,7 +2,9 @@
 <?php include_once("suscribirse.php");  ?>
 <!______________________________ FIN SUSCRIBIRSE-->
 
-
+<!--______________________________WHATSAPP-->
+  <a href="https://wa.me/+5492615597990?text=Me%20gustaría%20saber%20el%20precio" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+  <!--______________________________FIN-WHATSAPP-->
 
 <div class="container-fluid bg-black">
   	<div class="row border-top-red py-md-5 py-sm-3 text-left text-sm-center footer">

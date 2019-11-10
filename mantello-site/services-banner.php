@@ -11,13 +11,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/slider/banner-tarjetas.jpg" width="100%" class="d-block w-100" alt="Mantello">
+        <img src="img/slider/mantello-banners_institucional.jpg" width="100%" class="d-block w-100" alt="Mantello">
       </div>
       <div class="carousel-item">
-        <img src="img/slider/banner-tarjetas.jpg" width="100%" class="d-block w-100" alt="Mantello">
+        <img src="img/slider/mantello-banners_promocional.jpg" width="100%" class="d-block w-100" alt="Mantello">
       </div>
       <div class="carousel-item">
-        <img src="img/slider/banner-tarjetas.jpg" width="100%" class="d-block w-100" alt="Mantello">
+        <img src="img/slider/mantello-banners_promocional-2.jpg" width="100%" class="d-block w-100" alt="Mantello">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

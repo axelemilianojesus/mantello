@@ -232,9 +232,13 @@
   <?php include_once("maps.php");  ?>
   <!--______________________________ FIN MAP-->
 
+
   <!--______________________________CLIENTES-->
   <?php include_once("clientes.php");  ?>
   <!--______________________________ FIN CLIENTES-->
+  <!--______________________________ BANNERS-->
+<?php include_once("banners.php");  ?>
+  <!--______________________________ FIN BANNERS-->
 
   <!--______________________________ BUSCADOR-->
   <?php include_once("testimonials.php");  ?>
@@ -247,9 +251,23 @@
 
 </div>
 
+<!--______________________________ ENVIOS-->
+  <div class="container">
+    <div class="row py-5">
+      <hr>
+      <div class="col-md-12">
+        <img src="img/banners/mantello-banners_envios.jpg" alt="envios" width="100%">
+
+      </div>
+    </div>
+  </div>
+<!--______________________________ FIN ENVIOS-->
+
   <!--______________________________FOOTER-->
   <?php require_once("footer.php");  ?>
   <!--______________________________ FIN FOOTER-->
+
+
 
 </body>
 

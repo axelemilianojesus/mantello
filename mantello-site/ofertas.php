@@ -455,6 +455,10 @@
   <?php require_once("pagination.php");  ?>
   <!--______________________________ FIN PAGINATION-->
 
+  <!--______________________________ BANNERS-->
+<?php include_once("banners.php");  ?>
+  <!--______________________________ FIN BANNERS-->
+
 
 </div>
 

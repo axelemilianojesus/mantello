@@ -255,9 +255,17 @@
 
 
 
+<!--______________________________ ENVIOS-->
+  <div class="container">
+    <div class="row py-5">
+      <hr>
+      <div class="col-md-12">
+        <img src="img/banners/mantello-banners_envios.jpg" alt="envios" width="100%">
 
-
-
+      </div>
+    </div>
+  </div>
+<!--______________________________ FIN ENVIOS-->
 
 
 
