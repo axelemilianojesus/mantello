@@ -15,7 +15,10 @@
           <div class="carousel-caption d-none d-md-block">
             <h2>PROMOCIONES</h2>
             <p>Neumaticos Bridgestone, el número uno del mundo!</p>
+            <a href="ofertas.php"><button class="btn btn-success height-equal p-1" type="submit">
+            OFERTAS</button></a>
           </div>
+
         </div>
         <div class="carousel-item">
           <img src="img/slider/banner-tarjetas.jpg" width="100%" class="d-block w-100" alt="Mantello">

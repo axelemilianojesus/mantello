@@ -54,7 +54,6 @@
      <!-- PRODUCTO -->
       <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
           <div class="mx-md-2 mx-sm-0">
-            <div class="descuento">-20%</div> <!--OFERTA-->
             <div class="panel-heading" data-toggle="modal" data-target="#exampleModal5"> <img src="img/lubricantes/semisintetico/semi2.jpg" class="img-fluid" alt="Responsive immage">
             </div>
             <!-- Modal -->
@@ -76,7 +75,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                    <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                  <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                   </div>
                 </div>
               </div>
@@ -90,10 +89,10 @@
             </div>
 
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+            <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
           </div>
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+          <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
           </div>
           </div>
       </div>
@@ -102,7 +101,6 @@
       <!-- PRODUCTO -->
        <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
            <div class="mx-md-2 mx-sm-0">
-             <div class="descuento">-20%</div> <!--OFERTA-->
              <div class="panel-heading" data-toggle="modal" data-target="#exampleModal6"> <img src="img/accesorios4x4/barras/barra1.jpg" class="img-fluid" alt="Responsive immage">
              </div>
              <!-- Modal -->
@@ -124,7 +122,7 @@
                    </div>
                    <div class="modal-footer">
                      <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                   <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                    </div>
                  </div>
                </div>
@@ -138,10 +136,10 @@
              </div>
 
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+             <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
            </div>
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+           <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
            </div>
            </div>
        </div>
@@ -150,7 +148,6 @@
        <!-- PRODUCTO -->
         <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
             <div class="mx-md-2 mx-sm-0">
-              <div class="descuento">-20%</div> <!--OFERTA-->
               <div class="panel-heading" data-toggle="modal" data-target="#exampleModal7"> <img src="img/accesorios4x4/lona/lona1.jpg" class="img-fluid" alt="Responsive immage">
               </div>
               <!-- Modal -->
@@ -172,7 +169,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                      <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                    <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                     </div>
                   </div>
                 </div>
@@ -186,10 +183,10 @@
               </div>
 
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
             </div>
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+            <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
             </div>
             </div>
         </div>
@@ -198,7 +195,6 @@
         <!-- PRODUCTO -->
          <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
              <div class="mx-md-2 mx-sm-0">
-               <div class="descuento">-20%</div> <!--OFERTA-->
                <div class="panel-heading" data-toggle="modal" data-target="#exampleModal8"> <img src="img/accesorios4x4/cupulas/cupula1.jpg" class="img-fluid" alt="Responsive immage">
                </div>
                <!-- Modal -->
@@ -220,7 +216,7 @@
                      </div>
                      <div class="modal-footer">
                        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                       <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                     <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                      </div>
                    </div>
                  </div>
@@ -235,10 +231,10 @@
 
              <div class="btn-group w-100">
 
-               <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+               <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
              </div>
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+             <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
              </div>
              </div>
          </div>
@@ -256,7 +252,6 @@
      <!-- PRODUCTO -->
       <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
           <div class="mx-md-2 mx-sm-0">
-            <div class="descuento">-20%</div> <!--OFERTA-->
             <div class="panel-heading" data-toggle="modal" data-target="#exampleModal"> <img src="img/lubricantes/minerales/mineral1.jpg" class="img-fluid" alt="Responsive immage">
             </div>
             <!-- Modal -->
@@ -278,7 +273,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                    <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                  <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                   </div>
                 </div>
               </div>
@@ -292,10 +287,10 @@
             </div>
 
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+            <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
           </div>
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+          <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
           </div>
           </div>
       </div>
@@ -304,7 +299,6 @@
       <!-- PRODUCTO -->
        <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
            <div class="mx-md-2 mx-sm-0">
-             <div class="descuento">-20%</div> <!--OFERTA-->
              <div class="panel-heading" data-toggle="modal" data-target="#exampleModal2"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
              </div>
              <!-- Modal -->
@@ -326,7 +320,7 @@
                    </div>
                    <div class="modal-footer">
                      <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                   <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                    </div>
                  </div>
                </div>
@@ -340,10 +334,10 @@
              </div>
 
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+             <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
            </div>
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+           <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
            </div>
            </div>
        </div>
@@ -352,7 +346,6 @@
        <!-- PRODUCTO -->
         <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
             <div class="mx-md-2 mx-sm-0">
-              <div class="descuento">-20%</div> <!--OFERTA-->
               <div class="panel-heading" data-toggle="modal" data-target="#exampleModal3"> <img src="img/lubricantes/minerales/mineral2.jpg" class="img-fluid" alt="Responsive immage">
               </div>
               <!-- Modal -->
@@ -374,7 +367,7 @@
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                      <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                    <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                     </div>
                   </div>
                 </div>
@@ -388,10 +381,10 @@
               </div>
 
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
             </div>
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+            <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
             </div>
             </div>
         </div>
@@ -400,7 +393,6 @@
         <!-- PRODUCTO -->
          <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
              <div class="mx-md-2 mx-sm-0">
-               <div class="descuento">-20%</div> <!--OFERTA-->
                <div class="panel-heading" data-toggle="modal" data-target="#exampleModal4"> <img src="img/lubricantes/semisintetico/semi1.jpg" class="img-fluid" alt="Responsive immage">
                </div>
                <!-- Modal -->
@@ -422,7 +414,7 @@
                      </div>
                      <div class="modal-footer">
                        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                       <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                     <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                      </div>
                    </div>
                  </div>
@@ -436,10 +428,10 @@
                </div>
 
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
              </div>
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+               <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
              </div>
              </div>
          </div>
@@ -450,6 +442,7 @@
   </div>
 
   <!--______________________________ FILA PRODUCTOS-->
+
 
   <!--______________________________PAGINATION-->
   <?php require_once("pagination.php");  ?>

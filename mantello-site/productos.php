@@ -286,7 +286,7 @@ VER PRODUCTOS</a>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                    <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                  <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                   </div>
                 </div>
               </div>
@@ -300,10 +300,10 @@ VER PRODUCTOS</a>
             </div>
 
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+            <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
           </div>
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+          <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
           </div>
           </div>
       </div>
@@ -333,7 +333,7 @@ VER PRODUCTOS</a>
                    </div>
                    <div class="modal-footer">
                      <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                   <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                    </div>
                  </div>
                </div>
@@ -347,10 +347,10 @@ VER PRODUCTOS</a>
              </div>
 
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+             <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
            </div>
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+           <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
            </div>
            </div>
        </div>
@@ -380,7 +380,7 @@ VER PRODUCTOS</a>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                      <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                    <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                     </div>
                   </div>
                 </div>
@@ -394,10 +394,10 @@ VER PRODUCTOS</a>
               </div>
 
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
             </div>
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+            <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
             </div>
             </div>
         </div>
@@ -427,7 +427,7 @@ VER PRODUCTOS</a>
                      </div>
                      <div class="modal-footer">
                        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                       <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                     <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                      </div>
                    </div>
                  </div>
@@ -442,10 +442,10 @@ VER PRODUCTOS</a>
 
              <div class="btn-group w-100">
 
-               <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+               <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
              </div>
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+             <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
              </div>
              </div>
          </div>
@@ -484,7 +484,7 @@ VER PRODUCTOS</a>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                    <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                  <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                   </div>
                 </div>
               </div>
@@ -498,10 +498,10 @@ VER PRODUCTOS</a>
             </div>
 
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+            <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
           </div>
           <div class="btn-group w-100">
-            <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+          <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
           </div>
           </div>
       </div>
@@ -531,7 +531,7 @@ VER PRODUCTOS</a>
                    </div>
                    <div class="modal-footer">
                      <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                   <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                    </div>
                  </div>
                </div>
@@ -545,10 +545,10 @@ VER PRODUCTOS</a>
              </div>
 
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+             <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
            </div>
            <div class="btn-group w-100">
-             <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+           <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
            </div>
            </div>
        </div>
@@ -578,7 +578,7 @@ VER PRODUCTOS</a>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                      <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                    <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                     </div>
                   </div>
                 </div>
@@ -592,10 +592,10 @@ VER PRODUCTOS</a>
               </div>
 
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
             </div>
             <div class="btn-group w-100">
-              <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+            <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
             </div>
             </div>
         </div>
@@ -625,7 +625,7 @@ VER PRODUCTOS</a>
                      </div>
                      <div class="modal-footer">
                        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
-                       <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                     <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
                      </div>
                    </div>
                  </div>
@@ -639,10 +639,10 @@ VER PRODUCTOS</a>
                </div>
 
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-gray"><a href="producto.php">CONSULTAR</a></button>
+              <a href="producto.php" class="btn btn-gray w-100">CONSULTAR</a>
              </div>
              <div class="btn-group w-100">
-               <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+               <a href="carrito-compras.php" class="btn btn-red w-100">COMPRAR</a>
              </div>
              </div>
          </div>

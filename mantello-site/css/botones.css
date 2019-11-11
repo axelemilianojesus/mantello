@@ -22,6 +22,35 @@
   border-radius: 0px;
   background: red;
 }
+.btn:visited, .btn:hover{color: white;}
+
+
+.btn-facebook {
+    background-color: #405D9D !important;
+    color: #fff;
+}
+.btn-google {
+    background-color: #af0000 !important;
+    color: #fff;
+}
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:1000;
+}
+a.whatsapp { color: white !important}
+.whatsapp-icon {
+  margin-top:13px;
+}
 
 
 /* unvisited link */
@@ -31,7 +60,7 @@ a:link {
 
 /* visited link */
 a:visited {
-	color: lightgrey;
+	color: white;
 }
 
 /* mouse over link */

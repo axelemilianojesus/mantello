@@ -33,6 +33,8 @@
       <li><a href="medios-envio.php">Medios de envío</a></li>
       <li><a href="contacto.php">Contáctanos</a></li>
       <li><a href="legales.php">Política de privacidad</a></li>
+      <li><a href="#ModalHeaderIngresar" data-toggle="modal" data-target="#ModalHeaderIngresar" class="d-inline-block"><strong>Ingresar</strong> <i class="fas fa-user-shield"></a></i></li>
+      <li><a href="#ModalHeaderRegistrarse" data-toggle="modal" data-target="#ModalHeaderRegistrarse" class="d-inline-block"><strong>REGISTRARSE</strong> <i class="fas fa-user-plus"></a></i></li>
     </ul>
   </div>
   </div>
@@ -99,7 +101,7 @@
         <a href="ofertas.php">
         <button type="button" class="btn btn-primary my-1">OFERTAS</button></a>
 
-<!-- Modal -->
+<!-- Modal Carrito-->
 <div class="modal fade" id="ModalHeader" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
   <div class="modal-dialog text-black text-center" role="document">
@@ -138,7 +140,134 @@
     </div>
   </div>
 </div>
-<!-- end of Modal -->
+<!-- end of Modal CARRITO-->
+
+<!-- Modal INGRESAR-->
+<div class="modal fade" id="ModalHeaderIngresar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog text-black text-center" role="document">
+    <div class="modal-content">
+      <!-- PRODUCTO - 1 -->
+      <!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-conten padding-y" style="min-height:100px">
+
+<!-- ============================ COMPONENT LOGIN   ================================= -->
+	<div class="card mx-auto" style="max-width: 380px; margin-top:50px;">
+      <div class="card-body">
+      <h4 class="card-title mb-4"><strong>INGRESAR</strong></h4>
+      <form>
+      	  <a href="#" class="btn btn-facebook btn-block mb-2 text-white"> <i class="fab fa-facebook-f"></i> &nbsp  Ingresar con  Facebook</a>
+      	  <a href="#" class="btn btn-google btn-block mb-4 text-white"> <i class="fab fa-google"></i> &nbsp  Ingresar con Google</a>
+
+            <!--Form-->
+
+                <div class="form-group">
+                <i class="fa fa-user prefix grey-text"></i>
+                <label for="form3">Nombre de usuario</label>
+                <input name="nombre" class="form-control" placeholder="Usuario" type="text">
+                </div> <!-- form-group// -->
+
+                <div class="form-group">
+                <i class="fa fa-envelope prefix grey-text"></i>
+                <label for="form3">Correo</label>
+                <input name="correo" class="form-control" placeholder="Correo" type="mail">
+                </div> <!-- form-group// -->
+
+                <div class="form-group">
+                <i class="fas fa-key prefix grey-text"></i>
+                <label for="form2">Contraseña</label>
+                <input name="contrasena" class="form-control" placeholder="Contraseña" type="password">
+                </div> <!-- form-group// -->
+
+                <div class="text-center my-3">
+                  <button class="btn btn-indigo btn-block white-link">INGRESAR</button>
+                </div>
+
+            <!--/.Form-->
+
+            <div class="form-group">
+            	<a href="#" class="float-right">Olvido su password?</a>
+              <label class="float-left custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> Recordar </div> </label>
+            </div> <!-- form-group form-check .// -->
+
+      </form>
+ <!-- card-body.// -->
+    </div> <!-- card .// -->
+
+     <p class="text-center mt-4">No tiene una cuenta?<a  href="#ModalHeaderRegistrarse" data-toggle="modal" data-target="#ModalHeaderRegistrarse"> <strong>REGISTRARSE</strong></a></p>
+<!-- ============================ COMPONENT LOGIN  END.// ================================= -->
+
+
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+      <!-- MODAL FOOTER -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of Modal INGRESAR-->
+
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- Modal REGISTRARSE-->
+<div class="modal fade" id="ModalHeaderRegistrarse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog text-black text-center" role="document">
+    <div class="modal-content">
+      <!-- PRODUCTO - 1 -->
+      <!-- ========================= SECTION CONTENT ========================= -->
+<section class="section-conten padding-y" style="min-height:100px">
+
+<!-- ============================ COMPONENT LOGIN   ================================= -->
+	<div class="card mx-auto" style="max-width: 380px; margin-top:50px;">
+      <div class="card-body">
+      <h4 class="card-title mb-4"><strong>REGISTRARSE</strong></h4>
+      <form>
+      	  <a href="#" class="btn btn-facebook btn-block mb-2 text-white"> <i class="fab fa-facebook-f"></i> &nbsp  Registrarse con  Facebook</a>
+      	  <a href="#" class="btn btn-google btn-block mb-4 text-white"> <i class="fab fa-google"></i> &nbsp  Registrarse con Google</a>
+
+
+          <div class="form-group">
+          <i class="fa fa-envelope prefix grey-text"></i>
+          <label for="form3">Correo</label>
+          <input name="correo" class="form-control" placeholder="Correo" type="text">
+          </div> <!-- form-group// -->
+
+          <div class="form-group">
+          <i class="fas fa-key prefix grey-text"></i>
+          <label for="form2">Contraseña</label>
+          <input name="contrasena" class="form-control" placeholder="Contraseña" type="password">
+          </div> <!-- form-group// -->
+
+
+
+
+          <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block"> REGISTRARSE  </button>
+          </div> <!-- form-group// -->
+      </form>
+      </div> <!-- card-body.// -->
+    </div> <!-- card .// -->
+<!-- ============================ COMPONENT LOGIN  END.// ================================= -->
+
+
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->
+
+      <!-- MODAL FOOTER -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of Modal REGISTRARSE -->
+
+
+
+
         <!--<li class="hidden-xs"><a href="#contact">OFERTAS</a></li>-->
       </ul>
 
@@ -149,6 +278,8 @@
         <li class="mb-1 white-link"><a href="medios-envio.php">Medios de envío</a></li>
         <li class="mb-1 white-link"><a href="contacto.php">Contáctanos</a></li>
         <li class="mb-1 white-link"><a href="legales.php">Política de privacidad</a></li>
+        <li class="mb-1 white-link"><a href="#ModalHeaderIngresar" data-toggle="modal" data-target="#ModalHeaderIngresar" class="d-inline-block"><strong>Ingresar</strong> <i class="fas fa-user-shield"></a></i></li>
+        <li class="mb-1 white-link"><a href="#ModalHeaderRegistrarse" data-toggle="modal" data-target="#ModalHeaderRegistrarse" class="d-inline-block"><strong>REGISTRARSE</strong> <i class="fas fa-user-plus"></a></i></li>
       </ul>
       <form class="form-inline d-none d-block d-md-none my-2 my-lg-0">
         <input class="form-control mr-sm-2 w-100" type="search" placeholder="Buscar" aria-label="Search">

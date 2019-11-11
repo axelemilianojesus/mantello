@@ -116,6 +116,12 @@ Notarás un comportamiento extraño en el vehículo. A veces la dirección se ve
 </div>
 </div>
 
+<!--______________________________ VIDEO-->
+<div class="container">
+<?php  include_once("video.php");  ?>
+</div>
+  <!--______________________________ FIN VIDEO-->
+
 <!--______________________________FORM GENERAL-->
 <?php include_once("form-general.php"); ?>
 <!--______________________________ FIN FORM GENERAL-->
