@@ -209,7 +209,7 @@
                           </form>
                       </div>
                     </div>
-                    <div class="tarjetas">
+                    <div class="tarjetas w-100">
                       <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas width="100%"">
                     </div>
                   </div>

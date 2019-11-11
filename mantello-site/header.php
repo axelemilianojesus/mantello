@@ -159,24 +159,26 @@
       	  <a href="#" class="btn btn-facebook btn-block mb-2 text-white"> <i class="fab fa-facebook-f"></i> &nbsp  Ingresar con  Facebook</a>
       	  <a href="#" class="btn btn-google btn-block mb-4 text-white"> <i class="fab fa-google"></i> &nbsp  Ingresar con Google</a>
 
+
+<hr class="my-2">
             <!--Form-->
 
                 <div class="form-group">
                 <i class="fa fa-user prefix grey-text"></i>
                 <label for="form3">Nombre de usuario</label>
-                <input name="nombre" class="form-control" placeholder="Usuario" type="text">
+                <input name="nombre" class="form-control border border-secondary" placeholder="Usuario" type="text">
                 </div> <!-- form-group// -->
 
                 <div class="form-group">
                 <i class="fa fa-envelope prefix grey-text"></i>
                 <label for="form3">Correo</label>
-                <input name="correo" class="form-control" placeholder="Correo" type="mail">
+                <input name="correo" class="form-control border border-secondary" placeholder="Correo" type="mail">
                 </div> <!-- form-group// -->
 
                 <div class="form-group">
                 <i class="fas fa-key prefix grey-text"></i>
                 <label for="form2">Contraseña</label>
-                <input name="contrasena" class="form-control" placeholder="Contraseña" type="password">
+                <input name="contrasena" class="form-control border border-secondary" placeholder="Contraseña" type="password">
                 </div> <!-- form-group// -->
 
                 <div class="text-center my-3">
@@ -194,7 +196,7 @@
  <!-- card-body.// -->
     </div> <!-- card .// -->
 
-     <p class="text-center mt-4">No tiene una cuenta?<a  href="#ModalHeaderRegistrarse" data-toggle="modal" data-target="#ModalHeaderRegistrarse"> <strong>REGISTRARSE</strong></a></p>
+     <p class="text-center mt-4 text-white">No tiene una cuenta?<a  href="#ModalHeaderRegistrarse" data-toggle="modal" data-target="#ModalHeaderRegistrarse"> <strong>REGISTRARSE</strong></a></p>
 <!-- ============================ COMPONENT LOGIN  END.// ================================= -->
 
 
@@ -210,7 +212,6 @@
 </div>
 <!-- end of Modal INGRESAR-->
 
-<!-- ------------------------------------------------------------------------------------------------------------ -->
 <!-- Modal REGISTRARSE-->
 <div class="modal fade" id="ModalHeaderRegistrarse" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
@@ -228,24 +229,26 @@
       	  <a href="#" class="btn btn-facebook btn-block mb-2 text-white"> <i class="fab fa-facebook-f"></i> &nbsp  Registrarse con  Facebook</a>
       	  <a href="#" class="btn btn-google btn-block mb-4 text-white"> <i class="fab fa-google"></i> &nbsp  Registrarse con Google</a>
 
+          <hr class="my-2">
+
 
           <div class="form-group">
           <i class="fa fa-envelope prefix grey-text"></i>
           <label for="form3">Correo</label>
-          <input name="correo" class="form-control" placeholder="Correo" type="text">
+          <input name="correo" class="form-control border border-secondary" placeholder="Correo" type="text">
           </div> <!-- form-group// -->
 
           <div class="form-group">
           <i class="fas fa-key prefix grey-text"></i>
           <label for="form2">Contraseña</label>
-          <input name="contrasena" class="form-control" placeholder="Contraseña" type="password">
+          <input name="contrasena" class="form-control border border-secondary" placeholder="Contraseña" type="password">
           </div> <!-- form-group// -->
 
 
 
 
           <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-block"> REGISTRARSE  </button>
+              <button type="submit" class="btn btn-primary btn-block text-white"> REGISTRARSE  </button>
           </div> <!-- form-group// -->
       </form>
       </div> <!-- card-body.// -->
