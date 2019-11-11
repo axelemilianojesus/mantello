@@ -92,7 +92,7 @@ require_once("header.php");
 
         <!--Google map-->
         <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
-        
+
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5700516668785!2d-68.80298448481389!3d-32.93595598092431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0c0da6d9ec51%3A0x199bf08d17d57d12!2sGobernador%20Francisco%20Jos%C3%A9%20Gabrielli%203885%2C%20Maip%C3%BA%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1573161384884!5m2!1ses!2sar" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         <!-- Buttons-->
@@ -125,8 +125,7 @@ require_once("header.php");
 
     </div>
     <!-- Grid row -->
-
-  </section>
+</section>
   <!--Section: Content-->
 
 
