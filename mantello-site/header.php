@@ -247,9 +247,10 @@
 
 
                   <!-- MODAL FOOTER -->
-                  <div class="modal-footer bg-black">
+                  <div class="modal-footer bg-black pb-5">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
+                    <br>
                   </div>
 
 
