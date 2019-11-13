@@ -110,3 +110,33 @@ a:active {
 .navbar-nav .nav-link {
     color: white !important;
 }
+
+/*-------------------------------------------------MODAL*/
+.modal-header .close {
+    padding: 1px;
+    margin: auto;/
+    text-align: right !important;
+    font-size: 35px;
+    border-bottom: 1px solid gray;
+}
+
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1px;
+    border-bottom: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.bg-dark-change:nth-child(even) {
+    background-color: #343a40!important;
+}
+.bg-dark-change:nth-child(odd){
+    background-color: black !important;
+}

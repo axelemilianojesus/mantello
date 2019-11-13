@@ -106,37 +106,153 @@
 
               <div class="modal-dialog text-black text-center" role="document">
                 <div class="modal-content">
-                  <!-- PRODUCTO - 1 -->
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+                  <!-- PRODUCT - 1 -->
+                  <div class="container-fluid border border-danger border-bottom-5">
+                  <div class="row">
+
+                    <div class="col-6">
+                    <div class="modal-body">
+                       <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+
                     </div>
-                    <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
+
+                    <div class="col-6 bg-dark-change">
+                      <button type="button" class="close text-right pr-2 text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="modal-header d-inline text-white">
+                      <h5 class="modal-title py-3" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+                      <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
                   </div>
 
-                  <!-- PRODUCTO - 2 -->
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+
                   </div>
-                  <div class="modal-body">
-                    <div class="panel-heading"> <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+                  </div>
+                  <!-- END OF PRODUCT -->
+
+
+                  <!-- PRODUCT - 2 -->
+                  <div class="container-fluid border border-danger border-bottom-5">
+                  <div class="row">
+
+                    <div class="col-6">
+                    <div class="modal-body">
+                       <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+
                     </div>
-                    <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
+
+                    <div class="col-6 bg-dark-change">
+                      <button type="button" class="close text-right pr-2 text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="modal-header d-inline text-white">
+                      <h5 class="modal-title py-3" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+                      <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
                   </div>
+
+
+                  </div>
+                  </div>
+                  <!-- END OF PRODUCT -->
+
+
+                  <!-- PRODUCT - 2 -->
+                  <div class="container-fluid border border-danger border-bottom-5">
+                  <div class="row">
+
+                    <div class="col-6">
+                    <div class="modal-body">
+                       <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+
+                    </div>
+                    </div>
+
+                    <div class="col-6 bg-dark-change">
+                      <button type="button" class="close text-right pr-2 text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="modal-header d-inline text-white">
+                      <h5 class="modal-title py-3" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+                      <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
+                  </div>
+
+
+                  </div>
+                  </div>
+                  <!-- END OF PRODUCT -->
+
+
+
+                  <!-- PRODUCT - 2 -->
+                  <div class="container-fluid border border-danger border-bottom-5">
+                  <div class="row">
+
+                    <div class="col-6">
+                    <div class="modal-body">
+                       <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+
+                    </div>
+                    </div>
+
+                    <div class="col-6 bg-dark-change">
+                      <button type="button" class="close text-right pr-2 text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="modal-header d-inline text-white">
+                      <h5 class="modal-title py-3" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+                      <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
+                  </div>
+
+
+                  </div>
+                  </div>
+                  <!-- END OF PRODUCT -->
+
+
+
+                  <!-- PRODUCT - 2 -->
+                  <div class="container-fluid border border-danger border-bottom-5">
+                  <div class="row">
+
+                    <div class="col-6">
+                    <div class="modal-body">
+                       <img src="img/ruedas/rueda1.jpg" class="img-fluid" alt="Responsive immage">
+
+                    </div>
+                    </div>
+
+                    <div class="col-6 bg-dark-change">
+                      <button type="button" class="close text-right pr-2 text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    <div class="modal-header d-inline text-white">
+                      <h5 class="modal-title py-3" id="exampleModalLabel">NEUMÁTICO 165/70 R13 BRIDGESTONE POTENZA RE740</h5>
+                      <p><span class="text-red precios1"> $2601.00</span></p>
+                    </div>
+                  </div>
+
+
+                  </div>
+                  </div>
+                  <!-- END OF PRODUCT -->
+
+
+
+
 
                   <!-- MODAL FOOTER -->
-                  <div class="modal-footer">
+                  <div class="modal-footer bg-black">
                     <button type="button" class="btn btn-gray" data-dismiss="modal">CERRAR</button>
                     <button type="button" class="btn btn-red"><a href="carrito-compras.php">COMPRAR</a></button>
                   </div>
+
+
                 </div>
               </div>
             </div>
