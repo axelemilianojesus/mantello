@@ -54,6 +54,7 @@
      <!-- PRODUCTO -->
       <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
           <div class="mx-md-2 mx-sm-0">
+            <div class="descuento">-20%</div><!-- DESCUENTO -->
             <div class="panel-heading" data-toggle="modal" data-target="#exampleModal5"> <img src="img/lubricantes/semisintetico/semi2.jpg" class="img-fluid" alt="Responsive immage">
             </div>
             <!-- Modal -->
@@ -101,6 +102,7 @@
       <!-- PRODUCTO -->
        <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
            <div class="mx-md-2 mx-sm-0">
+             <div class="descuento">-20%</div><!-- DESCUENTO -->
              <div class="panel-heading" data-toggle="modal" data-target="#exampleModal6"> <img src="img/accesorios4x4/barras/barra1.jpg" class="img-fluid" alt="Responsive immage">
              </div>
              <!-- Modal -->
@@ -148,6 +150,7 @@
        <!-- PRODUCTO -->
         <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
             <div class="mx-md-2 mx-sm-0">
+              <div class="descuento">-20%</div><!-- DESCUENTO -->
               <div class="panel-heading" data-toggle="modal" data-target="#exampleModal7"> <img src="img/accesorios4x4/lona/lona1.jpg" class="img-fluid" alt="Responsive immage">
               </div>
               <!-- Modal -->
@@ -195,6 +198,7 @@
         <!-- PRODUCTO -->
          <div class="col-lg-3 col-md-6 col-sm-12 padding-0 text-center mt-3 mb-3">
              <div class="mx-md-2 mx-sm-0">
+               <div class="descuento">-20%</div><!-- DESCUENTO -->
                <div class="panel-heading" data-toggle="modal" data-target="#exampleModal8"> <img src="img/accesorios4x4/cupulas/cupula1.jpg" class="img-fluid" alt="Responsive immage">
                </div>
                <!-- Modal -->

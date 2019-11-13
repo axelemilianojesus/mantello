@@ -210,7 +210,7 @@
                       </div>
                     </div>
                     <div class="tarjetas w-100">
-                      <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas width="100%"">
+                      <img src="img/carrito/tarjetas-mercadopago.png" alt="tarjetas" width="100%">
                     </div>
                   </div>
                   <!--______________________________COMPARTIR-->
